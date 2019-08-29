@@ -1162,7 +1162,7 @@ ssectsstud: [number: 3 Stellig : 0 TO 999]
 
 ssectssem: [number: 3 Stellig : 0 TO 999]
 
-kh:
+kh: Bitte geben Sie nur Zahlen ein.
 
 fv:
 
@@ -1183,7 +1183,7 @@ hi:
 
 tc:
 
-vn: sswrite1/ sswrite2/ sswrite3/ sswrite4/ sswrite5/ sswrite6
+vn: sswrite1/ sswrite2/ sswrite3/ sswrite4/ sswrite5/ sswrite6/ sswrite7
 
 qt: offene Abfrage
 
@@ -1213,7 +1213,7 @@ ao5: sswrite5: 21 bis 25 Seiten : [Freitextfeld]
 
 ao6: sswrite6: 26 Seiten oder mehr : [Freitextfeld]
 
-mv: nichts davon
+mv: sswrite7: nichts davon
 
 ka:
 
@@ -1233,7 +1233,7 @@ bis zu 5 Seiten: [number: 2 Stellig : 0 TO 99]
 
 26 Seiten oder mehr: [number: 2 Stellig : 0 TO 99]
 
-kh:
+kh: Bitte geben Sie nur Zahlen ein.
 
 fv:
 
@@ -1284,7 +1284,7 @@ vc:
 
 av: [number: 3 Stellig : 0 TO 999]
 
-kh:
+kh: Bitte geben Sie nur Zahlen ein.
 
 fv:
 

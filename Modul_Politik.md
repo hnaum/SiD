@@ -85,9 +85,9 @@ ao4: 4:
 
 ao5: 5: sehr stark zufrieden
 
-ao6: 6: weiß nicht
 
-mv:
+
+mv: 6: weiß nicht
 
 ka:
 
@@ -167,9 +167,8 @@ ao4: 4:
 
 ao5: 5: stimme völlig zu
 
-ao6: 6: kann ich nicht beurteilen
 
-mv:
+mv: 6: kann ich nicht beurteilen
 
 ka:
 
@@ -258,9 +257,9 @@ ao4: 4:
 
 ao5: 5: stimme völlig zu
 
-ao6: 6: kann ich nicht beurteilen
 
-mv:
+
+mv: 6: kann ich nicht beurteilen
 
 ka:
 

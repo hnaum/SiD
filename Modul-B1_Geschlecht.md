@@ -33,7 +33,7 @@ ao5: 5: offene Angabe: 25, Prefix: eine andere, und zwar:
 
 ao6: 6: unklar
 
-ao7: -12: Ich möchte diese Frage nicht beantworten.
+
 
 mv: -12: Ich möchte diese Frage nicht beantworten.
 
@@ -483,9 +483,9 @@ ao3 (atwe): Treffen wichtiger Entscheidungen: 3, Suffix: %
 
 ao4 (atkb): Kinderbetreuung: 3, Suffix: %
 
-ao5 (atka) -11: trifft nicht zu
+ao5 (atka): trifft nicht zu
 
-mv: (atka) -11: trifft nicht zu
+mv:
 
 ka:
 
@@ -661,9 +661,9 @@ ao2: 2: studiert
 
 ao3: 3: promoviert
 
-ao4: -12: weiß ich nicht
 
-mv: - 12: weiß ich nicht
+
+mv: -12: weiß ich nicht
 
 ka:
 

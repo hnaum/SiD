@@ -111,9 +111,9 @@ it9: (ssqualeq9): Verfügbarkeit und Ausstattung fachspezifischer Übungsräume 
 it10: (ssqualeq10): Verfügbarkeit und Ausstattung von Räumen zum eigenständigen
 Lernen
 
-it11: (ssqualeq11) : Betreuungsangebote für Studierende mit Kindern
+it11: (ssqualeq11): Betreuungsangebote für Studierende mit Kindern
 
-it12: (ssqualeq12) : Verfügbarkeit von Fachliteratur (Bücher, Zeitschriften und
+it12: (ssqualeq12): Verfügbarkeit von Fachliteratur (Bücher, Zeitschriften und
 Literaturdatenbanken)
 
 st:
@@ -248,8 +248,7 @@ hl:
 
 in:
 
-q: Auf wie viele Lehrveranstaltungen, die Sie in diesem Semester besuchen,
-trifft Folgendes zu?
+q: Auf wie viele Lehrveranstaltungen, die Sie in diesem Semester besuchen, trifft Folgendes zu?
 
 Trifft auf … Lehrveranstaltungen zu.
 
@@ -318,9 +317,7 @@ hl:
 
 in:
 
-q: Wenn Sie an die von Ihnen belegten Veranstaltungen in einem typischen
-Semester denken: Wie hoch ist der Anteil der Sitzungen, an denen Sie auch
-tatsächlich anwesend sind?
+q: Wenn Sie an die von Ihnen belegten Veranstaltungen in einem typischen Semester denken: Wie hoch ist der Anteil der Sitzungen, an denen Sie auch tatsächlich anwesend sind?
 
 is:
 
@@ -387,17 +384,15 @@ hl:
 
 in:
 
-q: Wie beurteilen Sie die Anforderungen, die in Ihrem Studiengang an Studierende
-gestellt werden? Wie viel Wert wird in Ihrem Studiengang auf folgende Aspekte
-gelegt?
+q: Wie beurteilen Sie die Anforderungen, die in Ihrem Studiengang an Studierende gestellt werden? Wie viel Wert wird in Ihrem Studiengang auf folgende Aspekte gelegt?
 
 is:.
 
-it1: (sscowver1) : selbständig zu denken und zu arbeiten.
+it1: (sscowver1): selbständig zu denken und zu arbeiten.
 
-it2: (sscowver2) : grundlegende Zusammenhänge zu verstehen.
+it2: (sscowver2): grundlegende Zusammenhänge zu verstehen.
 
-it3: (sscowver3) : verschiedene Theorien und Konzepte kritisch vergleichen und beurteilen zu können.
+it3: (sscowver3): verschiedene Theorien und Konzepte kritisch vergleichen und beurteilen zu können.
 
 st:
 
@@ -700,8 +695,7 @@ hl:
 
 in:
 
-q: Inwieweit stimmen die folgenden Aussagen mit dem überein, was Sie in Ihrem
-Studiengang typischerweise erleben?
+q: Inwieweit stimmen die folgenden Aussagen mit dem überein, was Sie in Ihrem Studiengang typischerweise erleben?
 
 is:
 
@@ -772,11 +766,11 @@ q: Inwieweit beschreiben die folgenden Aussagen die Lehre in Ihrem Studiengang?
 
 is:.
 
-it1: (sscolmo1) : Die Lehrenden [wenn Fernstudium: Die Lehrenden/Studienmaterialien] stellen den Stoff interessant dar.
+it1: (sscolmo1): Die Lehrenden [wenn Fernstudium: Die Lehrenden/Studienmaterialien] stellen den Stoff interessant dar.
 
-it2: (sscolmo2) : Die Lehrenden vermitteln den Studierenden Freude am Fach.
+it2: (sscolmo2): Die Lehrenden vermitteln den Studierenden Freude am Fach.
 
-it3: (sscolmo3) : Die Lehrenden schaffen es, die Studierenden für das Gebiet/den Stoff zu interessieren.
+it3: (sscolmo3): Die Lehrenden schaffen es, die Studierenden für das Gebiet/den Stoff zu interessieren.
 
 st:
 
@@ -833,17 +827,17 @@ q: Wie häufig haben Sie im laufenden Semester *außerhalb* der Lehrveranstaltun
 
 is:.
 
-it1: (sskonth1) : Kommiliton\*innen
+it1: (sskonth1): Kommiliton\*innen
 
-it2: (sskonth2) : Studierende anderer Fächer
+it2: (sskonth2): Studierende anderer Fächer
 
-it3: (sskonth3) : Lehrende
+it3: (sskonth3): Lehrende
 
-it4: (sskonth4) : Mitarbeiter\*innen der Hochschulverwaltung
+it4: (sskonth4): Mitarbeiter\*innen der Hochschulverwaltung
 
-it5: (sskonth5) : Freunde und Bekannte außerhalb der Hochschule
+it5: (sskonth5): Freunde und Bekannte außerhalb der Hochschule
 
-it6: (sskonth6) : Familie (Eltern, Geschwister u. a.)
+it6: (sskonth6): Familie (Eltern, Geschwister u. a.)
 
 st:
 
@@ -906,17 +900,17 @@ q: Und wie zufrieden sind Sie mit Ihrem Kontakt zu…
 
 is:.
 
-it1: (sskontq1) : … Kommiliton\*innen?
+it1: (sskontq1): … Kommiliton\*innen?
 
-it2: (sskontq2) : … Studierende anderer Fächer?
+it2: (sskontq2): … Studierende anderer Fächer?
 
-it3: (sskontq3) : … Lehrende?
+it3: (sskontq3): … Lehrende?
 
-it4: (sskontq4) : … Mitarbeiter\*innen der Hochschulverwaltung?
+it4: (sskontq4): … Mitarbeiter\*innen der Hochschulverwaltung?
 
-it5: (sskontq5) : … Freunde und Bekannte außerhalb der Hochschule?
+it5: (sskontq5): … Freunde und Bekannte außerhalb der Hochschule?
 
-it6: (sskontq6) : … Familie (Eltern, Geschwister u. a.)?
+it6: (sskontq6): … Familie (Eltern, Geschwister u. a.)?
 
 st:
 
@@ -1102,9 +1096,9 @@ it:
 
 st:
 
-ao1: ssectsstud: [Freitextfeld]: Sie bislang in Ihrem aktuellen Studium zirka erreicht haben.
+ao1: (ssectsstud): [Freitextfeld]: Sie bislang in Ihrem aktuellen Studium zirka erreicht haben.
 
-ao2: ssectssem: [Freitextfeld]: Sie voraussichtlich im aktuellen Semester erreichen werden.
+ao2: (ssectssem): [Freitextfeld]: Sie voraussichtlich im aktuellen Semester erreichen werden.
 
 mv:
 
@@ -1147,9 +1141,7 @@ hl:
 
 in:
 
-q: Wie viele Zusammenfassungen, Exzerpte, Hausarbeiten oder andere schriftliche
-Leistungen müssen Sie im aktuellen Semester erbringen? (Inklusive der noch nicht
-abgeschlossenen)
+q: Wie viele Zusammenfassungen, Exzerpte, Hausarbeiten oder andere schriftliche Leistungen müssen Sie im aktuellen Semester erbringen? (Inklusive der noch nicht abgeschlossenen)
 
 is:.
 
@@ -1157,19 +1149,19 @@ it:
 
 st:
 
-ao1: sswrite1: bis zu 5 Seiten : [Freitextfeld]
+ao1: (sswrite1): bis zu 5 Seiten : [Freitextfeld]
 
-ao2: sswrite2: 6 bis 10 Seiten : [Freitextfeld]
+ao2: (sswrite2): 6 bis 10 Seiten : [Freitextfeld]
 
-ao3: sswrite3: 11 bis 15 Seiten : [Freitextfeld]
+ao3: (sswrite3): 11 bis 15 Seiten : [Freitextfeld]
 
-ao4: sswrite4: 16 bis 20 Seiten : [Freitextfeld]
+ao4: (sswrite4): 16 bis 20 Seiten : [Freitextfeld]
 
-ao5: sswrite5: 21 bis 25 Seiten : [Freitextfeld]
+ao5: (sswrite5): 21 bis 25 Seiten : [Freitextfeld]
 
-ao6: sswrite6: 26 Seiten oder mehr : [Freitextfeld]
+ao6: (sswrite6): 26 Seiten oder mehr : [Freitextfeld]
 
-mv: sswrite7: nichts davon
+mv: (sswrite7): nichts davon
 
 ka:
 
@@ -1220,9 +1212,7 @@ hl:
 
 in:
 
-q: Wenn Sie an eine typische 7-Tage-Woche des laufenden Semesters denken, wie
-viele Seiten lesen Sie durchschnittlich, um sich auf die von Ihnen besuchten
-Lehrveranstaltungen vorzubereiten?
+q: Wenn Sie an eine typische 7-Tage-Woche des laufenden Semesters denken, wie viele Seiten lesen Sie durchschnittlich, um sich auf die von Ihnen besuchten Lehrveranstaltungen vorzubereiten?
 
 is:.
 
@@ -1230,7 +1220,7 @@ it:
 
 st:
 
-ao: ssread: [Freitextfeld]
+ao: (ssread): [Freitextfeld]
 
 mv:
 

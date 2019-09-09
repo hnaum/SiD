@@ -64,8 +64,7 @@ hi:
 
 tc:
 
-vn: genidsach / genidloes / genidrat / genidueb / genidmach / genidrue /
-genidlieb / genideinf / genidemo / genidang / genidempf / genidvor
+vn: genidsach; genidloes; genidrat; genidueb; genidmach; genidrue; genidlieb; genideinf; genidemo; genidang; genidempf; genidvor
 
 qt: Einfachauswahlmatrix
 
@@ -145,11 +144,8 @@ hi:
 
 tc: IF demosex\<\>3
 
-vn: besex01 / besex02 / besex03 / besex04 / besex05 / besex06 / besex07 /
-besex08 / besex09 / besex10 / besex11,
-
-hosex01 / hosex02 / hosex03 / hosex04 / hosex05 / hosex06 / hosex07 / hosex08 /
-hosex09 / hosex10 / hosex11
+vn: besex01; besex02; besex03; besex04; besex05; besex06; besex07; besex08; besex09; besex10; besex11;
+hosex01; hosex02; hosex03; hosex04; hosex05; hosex06; hosex07; hosex08; hosex09; hosex10; hosex11
 
 qt: Einfachauswahlmatrix
 
@@ -268,12 +264,9 @@ hi:
 
 tc: IF demosex\<\>3
 
-vn: trad01 / trad02 / trad03 / trad04 / trad05 / trad06 / trad07 / trad08 /
-trad09 / trad010 / trad11 / trad12 / trad13 / trad14 / trad15 / trad16 / trad17
-/ trad18 / trad19 / trad20 / trad21,
+vn: trad01; trad02; trad03; trad04; trad05; trad06; trad07; trad08; trad09; trad010; trad11; trad12; trad13; trad14; trad15;  trad16; trad17; trad18; trad19; trad20; trad21,
 
-ntrad ntrad01 / ntrad02 / ntrad03 / ntrad04 / ntrad05 / ntrad06 / ntrad07 /
-ntrad08 / ntrad09 / ntrad10 / ntrad11 / ntrad12 / ntrad13 / ntrad14 / ntrad15
+ntrad01; ntrad02; ntrad03; ntrad04; ntrad05; ntrad06; ntrad07; ntrad08; ntrad09; ntrad10; ntrad11; ntrad12; ntrad13; ntrad14; ntrad15
 
 qt: Einfachauswahlmatrix
 
@@ -442,15 +435,7 @@ hi:
 
 tc:
 
-vn1: athhm / athhv / athhi / athha
-
-vn2: ateem / ateev / ateei / ateea
-
-vn3: atwem / atwev / atwei / atwea
-
-vn4: atkbm / atkbv / atkbi / atkba
-
-vn5: atkam / atkav / atkai / atkaa
+vn: athhm_m/_v/_i/_a; ateem_m/_v/_i/_a; atwem_m/_v/_i/_a; atkbm_m/_v/_i/_a; atkam_m/_v/_i/_a;
 
 qt: Mehrfachauswahlmatrix mit horizontalen ao mit offener Nennung
 
@@ -465,13 +450,13 @@ is: \*\*Bitte summieren Sie jeweils die ++Spaltenprozente++ auf 100 Prozent.
 Sollten Sie keine (Stief-)Mutter und/oder keinen (Stief-)Vater haben, kreuzen
 Sie bitte entsprechend „trifft nicht zu“ an.\*\*
 
-it1: (Stamm-m): (Stief-)Mutter
+it1: (_m): (Stief-)Mutter
 
-it2: (Stamm-v): (Stief-)Vater
+it2: (_v): (Stief-)Vater
 
-it3: (Stamm-i): ich selbst
+it3: (_i): ich selbst
 
-it4: (Stamm-a): andere Personen
+it4: (_a): andere Personen
 
 st:
 
@@ -619,8 +604,7 @@ hi:
 
 tc:
 
-vn: promgroßv / promgroßm / promvat / prommut / prombrud / promschw / promtan /
-promonk / promcoin / promcoine
+vn: promgroßv; promgroßm; promvat; prommut; prombrud; promschw; promtan; promonk; promcoin; promcoine
 
 qt: Einfachauswahl
 

@@ -552,8 +552,7 @@ B16
 
 tc:
 
-vn: baufgrueuba, baufgruausba, baufgruasylba, baufgrufamba, baufgrutouba,
-baufgrustuba, baufgruandba, baufgruandba_open, baufgruwnba
+vn: baufgrueuba; baufgruausba; baufgruasylba; baufgrufamba; baufgrutouba; baufgrustuba; baufgruandba; baufgruandba_open; baufgruwnba
 
 qt: Mehrfachauswahl mit offener Angabe
 
@@ -561,9 +560,7 @@ hl:
 
 in:
 
-q: Für den Zuzug nach Deutschland gibt es unterschiedliche rechtliche
-Grundlagen. Wie war das bei Ihnen, welchen Status haben Sie damals bei Ihrer
-Einreise nach Deutschland gehabt?
+q: Für den Zuzug nach Deutschland gibt es unterschiedliche rechtliche Grundlagen. Wie war das bei Ihnen, welchen Status haben Sie damals bei Ihrer Einreise nach Deutschland gehabt?
 
 is:
 
@@ -571,27 +568,23 @@ it:
 
 st:
 
-ao1: 1: Bürger/ Bürgerin eines EU Mitgliedstaates/ Staates im EWR (Europäischer
-Wirtschaftsraum)
+ao1: 1: (baufgrueuba): Bürger/ Bürgerin eines EU Mitgliedstaates/ Staates im EWR (Europäischer Wirtschaftsraum)
 
-ao2: 2: Aussiedler/ Aussiedlerin, das heißt deutschstämmige Person aus
-osteuropäischen Staaten
+ao2: 2: (baufgruausba): Aussiedler/ Aussiedlerin, das heißt deutschstämmige Person aus osteuropäischen Staaten
 
-ao3: 3: Asylbewerber/ Asylbewerberin oder Flüchtling
+ao3: 3: (baufgruasylba): Asylbewerber/ Asylbewerberin oder Flüchtling
 
-ao4: 4: Familiennachzug, z. B. als Ehegatte/ Ehegattin oder Kind eines/ einer
-Aufenthaltsberechtigten
+ao4: 4: (baufgrufamba): Familiennachzug, z. B. als Ehegatte/ Ehegattin oder Kind eines/ einer Aufenthaltsberechtigten
 
-ao5: 5: mit einem Touristenvisum
+ao5: 5: (baufgrutouba): mit einem Touristenvisum
 
-ao6: 6: Studierender/ Studierende, Schüler/ Schülerin oder Auszubildender/
-Auszubildende (einschließlich Aufenthaltserlaubnis zur Studienvorbereitung)
+ao6: 6: (baufgrustuba): Studierender/ Studierende, Schüler/ Schülerin oder Auszubildender/ Auszubildende (einschließlich Aufenthaltserlaubnis zur Studienvorbereitung)
 
-ao7: 7: anderen, und zwar:
+ao7: 7: (baufgruandba): anderen, und zwar: (baufgruandba_open)
 
 ato:
 
-ao8: 8: weiß ich nicht [EK]
+ao8: 8: (baufgruwnba): weiß ich nicht [EK]
 
 mv:
 
@@ -675,12 +668,9 @@ hl:
 
 in:
 
-q: Sie wurden von der Hochschule HS-Name aus [PRELOAD_??] eingeladen, sind Sie
-hier aktuell immatrikuliert?
+q: Sie wurden von der Hochschule HS-Name aus [PRELOAD_??] eingeladen, sind Sie hier aktuell immatrikuliert?
 
-is: Falls Sie an mehreren Hochschulen eingeschrieben sind, beziehen Sie Ihre
-Antwort auf diese und alle weiteren Fragen bitte auf die Hochschule, an der Sie
-den für Sie gegenwärtig wichtigeren Studiengang studieren.
+is: Falls Sie an mehreren Hochschulen eingeschrieben sind, beziehen Sie Ihre Antwort auf diese und alle weiteren Fragen bitte auf die Hochschule, an der Sie den für Sie gegenwärtig wichtigeren Studiengang studieren.
 
 it:
 
@@ -725,8 +715,7 @@ hl:
 
 in:
 
-q: Alles in allem: Wie zufrieden sind Sie insgesamt mit den Bedingungen im
-Studium?
+q: Alles in allem: Wie zufrieden sind Sie insgesamt mit den Bedingungen im Studium?
 
 is:
 
@@ -818,7 +807,7 @@ SDK-stu06
 
 tc:
 
-vn: sfach1, sfach1o, sfach1ka
+vn: sfach1; sfach1o; sfach1ka
 
 qt: Einfachauswahl mit Dropdown
 
@@ -826,11 +815,9 @@ hl:
 
 in:
 
-q1: Bitte wählen Sie Ihr (erstes) Studienfach/Hauptfach aus der unten
-angegebenen Liste aus.
+q1: Bitte wählen Sie Ihr (erstes) Studienfach/Hauptfach aus der unten angegebenen Liste aus.
 
-q2: Bitte wählen Sie Ihr erstes Unterrichtsfach/Hauptfach aus der unten
-angegebenen Liste aus.
+q2: Bitte wählen Sie Ihr erstes Unterrichtsfach/Hauptfach aus der unten angegebenen Liste aus.
 
 is:
 
@@ -856,9 +843,7 @@ fv:
 
 hv:
 
-fo: Sie haben Ihr Studienfach nicht angegeben. Die Angabe Ihres Studienfachs ist
-für diese Befragung sehr wichtig. Sollte Ihr Studienfach in der Liste nicht
-aufgeführt sein, tragen Sie es bitte in dem dafür vorgesehenen Textfeld ein.
+fo: Sie haben Ihr Studienfach nicht angegeben. Die Angabe Ihres Studienfachs ist für diese Befragung sehr wichtig. Sollte Ihr Studienfach in der Liste nicht aufgeführt sein, tragen Sie es bitte in dem dafür vorgesehenen Textfeld ein.
 
 (1) offene Abfrage: 50, Anderes Studienfach:
 
@@ -885,8 +870,7 @@ in:
 
 q1: Bitte tragen Sie Ihr (erstes) Studienfach in das dafür vorgesehene Feld ein.
 
-q2: Bitte tragen Sie Ihr erstes Unterrichtsfach in das dafür vorgesehene Feld
-ein.
+q2: Bitte tragen Sie Ihr erstes Unterrichtsfach in das dafür vorgesehene Feld ein.
 
 is:
 
@@ -1043,7 +1027,7 @@ SDK-stu
 
 tc:
 
-vn: sabsweit, sabsweito
+vn: sabsweit; sabsweito
 
 qt: Mehrfachauswahl
 
@@ -1051,8 +1035,7 @@ hl:
 
 in:
 
-q: Sie haben angegeben in Ihrem aktuellen Studium keinen Studienabschluss
-anzustreben. Nutzen Sie aktuell hochschulische Weiterbildungsangebote?
+q: Sie haben angegeben in Ihrem aktuellen Studium keinen Studienabschluss anzustreben. Nutzen Sie aktuell hochschulische Weiterbildungsangebote?
 
 is: Bitte alles zutreffende auswählen.
 
@@ -1101,7 +1084,7 @@ SDK-stu12
 
 tc:
 
-vn: sformpraes, sformdua, sformberu, sformfern, sformsons, sformsonso
+vn: sformpraes; sformdua; sformberu; sformfern; sformsons; sformsonso
 
 qt: Mehrfachauswahl mit offener Angabe
 
@@ -1166,11 +1149,9 @@ in:
 
 q1: Im wievielten Fachsemester befinden Sie sich zurzeit?
 
-is1: Fachsemester sind die Semester, die sie in Ihrem derzeitigen
-Bachelor-Studiengang eingeschrieben sind.
+is1: Fachsemester sind die Semester, die sie in Ihrem derzeitigen Bachelor-Studiengang eingeschrieben sind.
 
-is2: Fachsemester sind die Semester, die sie in Ihrem derzeitigen
-Master-Studiengang eingeschrieben sind.
+is2: Fachsemester sind die Semester, die sie in Ihrem derzeitigen Master-Studiengang eingeschrieben sind.
 
 it:
 
@@ -1217,9 +1198,7 @@ in:
 
 q1: Im wievielten Hochschulsemester befinden Sie sich zurzeit?
 
-is: Hochschulsemester sind alle Semester, die Sie seit Ihrer Erstimmatrikulation
-insgesamt studiert haben (also auch die Zeiten eines möglichen
-Bachelorstudiums), einschließlich Urlaubs-, Auslands- und Praxissemester.
+is: Hochschulsemester sind alle Semester, die Sie seit Ihrer Erstimmatrikulation insgesamt studiert haben (also auch die Zeiten eines möglichen Bachelorstudiums), einschließlich Urlaubs-, Auslands- und Praxissemester.
 
 it:
 
@@ -1254,7 +1233,7 @@ SDK-erf01
 
 tc:
 
-vn: spernot, spernoto
+vn: spernot; spernoto
 
 qt: offene Frage, Einfachauswahl
 
@@ -1262,12 +1241,9 @@ hl:
 
 in:
 
-q: Wie wurden Ihre bisherigen Studienleistungen in Ihrem aktuellen Studium im
-Durchschnitt bewertet?
+q: Wie wurden Ihre bisherigen Studienleistungen in Ihrem aktuellen Studium im Durchschnitt bewertet?
 
-is: Für den Fall, dass Sie keine Noten erhalten, sondern Ihre Studienleistungen
-mit Punkten, Prozentangaben o. Ä. bewertet werden, rechnen Sie diese bitte in
-Noten um.
+is: Für den Fall, dass Sie keine Noten erhalten, sondern Ihre Studienleistungen mit Punkten, Prozentangaben o. Ä. bewertet werden, rechnen Sie diese bitte in Noten um.
 
 it:
 
@@ -1275,13 +1251,11 @@ st:
 
 ao1: 3, Prefix: Durchschnittsnote (z.B. 2,5):
 
-ao2: 11: Ich habe bisher keine Noten erhalten / In meinem Studium gibt es keine
-Noten.
+ao2: 11: Ich habe bisher keine Noten erhalten / In meinem Studium gibt es keine Noten.
 
 ao3: -12: weiß ich nicht
 
-mv: -11: Ich habe bisher keine Noten erhalten / In meinem Studium gibt es keine
-Noten.
+mv: -11: Ich habe bisher keine Noten erhalten / In meinem Studium gibt es keine Noten.
 
 \-12: weiß ich nicht
 
@@ -1297,8 +1271,7 @@ fv:
 
 hv:
 
-fo: Bitte die beiden geschlossenen Antwortoptionen/-items neben der Notenabfrage
-in einer Zeile positionieren.
+fo: Bitte die beiden geschlossenen Antwortoptionen/-items neben der Notenabfrage in einer Zeile positionieren.
 
 tr: GOTO SDK-erf03
 
@@ -1319,8 +1292,7 @@ hl:
 
 in:
 
-q: Wie schätzen Sie Ihre bisherigen Studienleistungen in Ihrem aktuellen Studium
-im Vergleich zu den Leistungen Ihrer Kommiliton(inn)en ein?
+q: Wie schätzen Sie Ihre bisherigen Studienleistungen in Ihrem aktuellen Studium im Vergleich zu den Leistungen Ihrer Kommiliton(inn)en ein?
 
 is:
 
@@ -1373,8 +1345,7 @@ hl:
 
 in:
 
-q: Wie zufrieden sind Sie insgesamt mit den bisher von Ihnen erbrachten
-Studienleistungen in Ihrem aktuellen Studium?
+q: Wie zufrieden sind Sie insgesamt mit den bisher von Ihnen erbrachten Studienleistungen in Ihrem aktuellen Studium?
 
 is:
 
@@ -1415,7 +1386,7 @@ SDK-erf03
 
 tc:
 
-vn: studerfolg, masterfolg, promoerfolg
+vn: studerfolg; masterfolg; promoerfolg
 
 qt: Mehrfachauswahlmatrix
 
@@ -1468,7 +1439,7 @@ SDK-sde01
 
 tc:
 
-vn: demosex, demosexo
+vn: demosex; demosexo
 
 qt: Einfachauswahl mit offener Angabe
 
@@ -1519,7 +1490,7 @@ SDK-sde01
 
 tc:
 
-vn: demosex, demosexo
+vn: demosex; demosexo
 
 qt: Einfachauswahl mit offener Angabe
 
@@ -1635,8 +1606,6 @@ ao2: 2: nicht verheiratet, mit fester Partnerbeziehung
 
 ao3: 3: verheiratet/eingetragene Lebenspartnerschaft
 
-ao4: -13: keine Angabe
-
 mv: -13: Keine Angabe
 
 ka:
@@ -1711,20 +1680,15 @@ SDK-gub01
 
 tc:
 
-vn: gbeges, gartmob, gartseh, gartohr, gartspr, gartpsy, gartsom, garttls,
-gartson, gartka
+vn: gbeges; gartmob; gartseh; gartohr; gartspr; gartpsy; gartsom; garttls; gartson; gartka
 
 qt: Mehrfachauswahl
 
 hl:
 
-in: Im Folgenden stellen wir Ihnen einige kurze Fragen zu möglichen
-Beeinträchtigungen. Wie für alle Fragen gilt: Die Beantwortung dieser Fragen ist
-selbstverständlich freiwillig und wir sichern Ihnen Anonymität und den Schutz
-Ihrer Daten zu.
+in: Im Folgenden stellen wir Ihnen einige kurze Fragen zu möglichen Beeinträchtigungen. Wie für alle Fragen gilt: Die Beantwortung dieser Fragen ist selbstverständlich freiwillig und wir sichern Ihnen Anonymität und den Schutz Ihrer Daten zu.
 
-q: Haben Sie eine oder mehrere der nachfolgend aufgeführten gesundheitlichen
-Beeinträchtigungen?
+q: Haben Sie eine oder mehrere der nachfolgend aufgeführten gesundheitlichen Beeinträchtigungen?
 
 is: Bitte alles Zutreffende auswählen.
 
@@ -1732,27 +1696,25 @@ it:
 
 st:
 
-ao1: 1(gbeges): nein (EK)
+ao1: 1: (gbeges): nein (EK)
 
-ao2: 2(gartmob): Bewegungsbeeinträchtigung (z. B. beim Gehen, Stehen, Greifen)
+ao2: 2: (gartmob): Bewegungsbeeinträchtigung (z. B. beim Gehen, Stehen, Greifen)
 
-ao3: 3(gartseh): Sehbeeinträchtigung/Blindheit
+ao3: 3: (gartseh): Sehbeeinträchtigung/Blindheit
 
-ao4: 4(gartohr): Hörbeeinträchtigung/Gehörlosigkeit
+ao4: 4: (gartohr): Hörbeeinträchtigung/Gehörlosigkeit
 
-ao5: 5(gartspr): Sprechbeeinträchtigung (z. B. Stottern)
+ao5: 5: (gartspr): Sprechbeeinträchtigung (z. B. Stottern)
 
-ao6: 6(gartpsy): psychische Erkrankung (z. B. Depression, Essstörung)
+ao6: 6: (gartpsy): psychische Erkrankung (z. B. Depression, Essstörung)
 
-ao7: 7(gartsom): länger dauernde Krankheit/chronische Krankheit (z. B. Rheuma,
-MS, Darmerkrankung)
+ao7: 7: (gartsom): länger dauernde Krankheit/chronische Krankheit (z. B. Rheuma, MS, Darmerkrankung)
 
-ao8: 8(garttls): Teilleistungsstörung (z. B. Legasthenie, Dyskalkulie)
+ao8: 8: (garttls): Teilleistungsstörung (z. B. Legasthenie, Dyskalkulie)
 
-ao9: 9(gartson): andere Beeinträchtigung/schwere Erkrankung (z. B.
-Tumorerkrankung, Autismus-Spektrum-Störung)
+ao9: 9: (gartson): andere Beeinträchtigung/schwere Erkrankung (z. B. Tumorerkrankung, Autismus-Spektrum-Störung)
 
-ao10: 10(gartka): Ich möchte die Form meiner Beeinträchtigung nicht nennen. (EK)
+ao10: 10: (gartka): Ich möchte die Form meiner Beeinträchtigung nicht nennen. (EK)
 
 mv:
 
@@ -1807,14 +1769,12 @@ ao3: 5: Fachhochschulabschluss
 
 ao4: 4: Abschluss an einer Meister-, Techniker-/ Fachschule
 
-ao5: 3: Lehre bzw. Facharbeiterabschluss, Abschluss an einer Berufsfach-,
-Handels-, Berufsaufbauschule
+ao5: 3: Lehre bzw. Facharbeiterabschluss, Abschluss an einer Berufsfach-, Handels-, Berufsaufbauschule
 
 ao6: 2: anderer beruflicher Abschluss
 
 ao7: 1: hat keinen beruflichen Abschluss
 
-ao8: -12: weiß ich nicht
 
 mv: -12: weiß ich nicht
 
@@ -1851,17 +1811,14 @@ hl:
 
 in:
 
-q: Und welchen Beruf übt Ihr Vater/Ihre Mutter hauptberuflich aus? Bitte
-erläutern Sie die Tätigkeit Ihres Vaters/Ihrer Mutter kurz.
+q: Und welchen Beruf übt Ihr Vater/Ihre Mutter hauptberuflich aus? Bitte erläutern Sie die Tätigkeit Ihres Vaters/Ihrer Mutter kurz.
 
-is: Falls Ihr Vater oder Ihre Mutter zurzeit nicht erwerbstätig sind (z. B.
-Rentner(in), Pensionär(in), Hausfrau/-mann oder arbeitssuchend), geben Sie bitte
-die jeweils zuletzt ausgeübte Tätigkeit an.
+is: Falls Ihr Vater oder Ihre Mutter zurzeit nicht erwerbstätig sind (z. B. Rentner(in), Pensionär(in), Hausfrau/-mann oder arbeitssuchend), geben Sie bitte die jeweils zuletzt ausgeübte Tätigkeit an.
 
-Bitte tragen Sie die genaue Bezeichnung und Tätigkeit inklusive Führungsaufgaben
-ein. Zum Beispiel:
+Bitte tragen Sie die genaue Bezeichnung und Tätigkeit inklusive Führungsaufgaben ein. 
+Zum Beispiel:
 
-\- Bankkaufmann/-frau (nicht: Angestellte/r)
+\- Bankkaufmann/-frau (nicht: Angestellte/r) 
 
 Beratung, Verkauf von Finanzprodukten, Abteilungsleitung
 
@@ -1903,9 +1860,7 @@ fv:
 
 hv:
 
-fo: Vater“ und „Mutter“ bitte in einer extra Zeile positionieren, die mittig
-über den jeweils darunterliegenden Antwortzeilen liegt (siehe Darstellung
-hierunter):
+fo: Vater“ und „Mutter“ bitte in einer extra Zeile positionieren, die mittig über den jeweils darunterliegenden Antwortzeilen liegt (siehe Darstellung hierunter):
 
 Vater Mutter
 
@@ -1929,7 +1884,7 @@ SDK-sde21
 
 tc:
 
-vn: deltgebv, deltgebm
+vn: deltgebv; deltgebm
 
 qt: Comparison
 
@@ -1951,7 +1906,6 @@ ao1: 1: in Deutschland
 
 ao2: 2: in einem anderen Land
 
-ao3: -12: weiß ich nicht
 
 mv: -12 weiß ich nicht
 
@@ -2268,7 +2222,7 @@ SDK-vbi2
 
 tc:
 
-vn: vsbplz, [vsbplzo], vsbort
+vn: vsbplz; [vsbplzo]; vsbort
 
 qt: offene Frage
 
@@ -2276,8 +2230,7 @@ hl:
 
 in:
 
-q: Bitte geben Sie die fünfstellige Postleitzahl des Ortes an, in dem Sie bei
-Erhalt Ihrer Studienberechtigung gewohnt haben.
+q: Bitte geben Sie die fünfstellige Postleitzahl des Ortes an, in dem Sie bei Erhalt Ihrer Studienberechtigung gewohnt haben.
 
 is:
 
@@ -2316,7 +2269,7 @@ SDK-vbi2_1
 
 tc:
 
-vn: vsbplz, [vsbplzo], vsbort
+vn: vsbplz; [vsbplzo]; vsbort
 
 qt: offene Frage
 
@@ -2324,8 +2277,7 @@ hl:
 
 in:
 
-q: Bitte geben Sie die fünfstellige Postleitzahl des Ortes an, in dem Sie bei
-Erhalt Ihrer Studienberechtigung gewohnt haben.
+q: Bitte geben Sie die fünfstellige Postleitzahl des Ortes an, in dem Sie bei Erhalt Ihrer Studienberechtigung gewohnt haben.
 
 is:
 
@@ -2335,8 +2287,7 @@ st:
 
 ao1: 5, Prefix: Postleitzahl:
 
-ao2: 25, Prefix: Falls Sie die Postleitzahl nicht kennen, geben Sie bitte den
-Ort an:
+ao2: 25, Prefix: Falls Sie die Postleitzahl nicht kennen, geben Sie bitte den Ort an:
 
 mv:
 
@@ -2424,9 +2375,7 @@ hl:
 
 in:
 
-q: Die Berechtigung zum Studium kann in Deutschland auf verschiedenen Wegen
-erfolgen: Zum einen (klassisch) über ein Schulzeugnis, zum anderen aber auch
-über die Anerkennung beruflicher Qualifikationen oder besonderer Eignungen.
+q: Die Berechtigung zum Studium kann in Deutschland auf verschiedenen Wegen erfolgen: Zum einen (klassisch) über ein Schulzeugnis, zum anderen aber auch über die Anerkennung beruflicher Qualifikationen oder besonderer Eignungen.
 
 Auf welchem Weg erfolgte Ihre Zulassung zu Ihrem ersten Studium?
 
@@ -2436,11 +2385,9 @@ it:
 
 st:
 
-ao1: 1: Schulzeugnis (Abitur, Fachhochschulreife, fachgebundene Hochschulreife,
-auch Abendgymnasium/Kolleg )
+ao1: 1: Schulzeugnis (Abitur, Fachhochschulreife, fachgebundene Hochschulreife, auch Abendgymnasium/Kolleg )
 
-ao2: 2: Berufliche Qualifikation (Fortbildungsabschluss als Meister o.ä.;
-Ausbildungsabschluss und Berufspraxis)
+ao2: 2: Berufliche Qualifikation (Fortbildungsabschluss als Meister o.ä.; Ausbildungsabschluss und Berufspraxis)
 
 ao3: 3: Eignungs- bzw. Begabtenprüfung
 
@@ -2526,7 +2473,7 @@ SDK-vbi5
 
 tc:
 
-vn: vsbstyp, vsbtypo
+vn: vsbstyp; vsbtypo
 
 qt: Einfachauswahl mit offener Abfrage
 
@@ -2534,8 +2481,7 @@ hl:
 
 in:
 
-q: Auf welchem Schultyp bzw. auf welchem Weg haben Sie Ihre Studienberechtigung
-erworben?
+q: Auf welchem Schultyp bzw. auf welchem Weg haben Sie Ihre Studienberechtigung erworben?
 
 is:
 
@@ -2543,19 +2489,15 @@ it:
 
 st:
 
-ao1: 1: gymnasiale Oberstufe (Gymnasium, Gesamtschule, berufliches Gymnasium,
-Fachgymnasium, Oberstufenzentrum u.a.)
+ao1: 1: gymnasiale Oberstufe (Gymnasium, Gesamtschule, berufliches Gymnasium, Fachgymnasium, Oberstufenzentrum u.a.)
 
-ao2: 2: Berufsoberschule, Fachoberschule, andere berufsbildende Schulen
-(Berufsfachschule, Berufskolleg u.a.)
+ao2: 2: Berufsoberschule, Fachoberschule, andere berufsbildende Schulen (Berufsfachschule, Berufskolleg u.a.)
 
-ao3: 3: Abendgymnasium, Kolleg (nicht Berufskolleg)
+ao3: 3: Abendgymnasium, Kolleg (nicht Berufskolleg) 
 
-ao4: 4: berufliche Aufstiegsfortbildung (Meister(in), Fachwirt(in),
-Erzieher(in), Techniker(in) u. a.)
+ao4: 4: berufliche Aufstiegsfortbildung (Meister(in), Fachwirt(in), Erzieher(in), Techniker(in) u. a.)
 
-ao5: 5: abgeschlossene Berufsausbildung mit mindestens dreijähriger
-Berufserfahrung und Eignungsfeststellung, Begabtenprüfung oder Probestudium
+ao5: 5: abgeschlossene Berufsausbildung mit mindestens dreijähriger Berufserfahrung und Eignungsfeststellung, Begabtenprüfung oder Probestudium
 
 ao6: 6: auf einem anderen Weg,
 
@@ -2575,8 +2517,7 @@ fv:
 
 hv:
 
-fo: Bitte die Beispiele in Klammern in etwas kleinerer Schriftgröße (2pt
-kleiner) umsetzen.
+fo: Bitte die Beispiele in Klammern in etwas kleinerer Schriftgröße (2pt kleiner) umsetzen.
 
 tr: GOTO SDK-vbi5
 
@@ -2589,7 +2530,7 @@ SDK-vbi5_1
 
 tc:
 
-vn: vsbstyp, vsbtypo
+vn: vsbstyp1-15; vsbtypob
 
 qt: Mehrfachauswahl mit offener Abfrage
 
@@ -2597,8 +2538,7 @@ hl:
 
 in:
 
-q: Auf welchem Schultyp bzw. auf welchem Weg haben Sie Ihre Studienberechtigung
-erworben?
+q: Auf welchem Schultyp bzw. auf welchem Weg haben Sie Ihre Studienberechtigung erworben?
 
 is: Mehrfachnennungen möglich
 
@@ -2606,44 +2546,41 @@ it:
 
 st:
 
-ao1: 1: Gymnasium
+ao1: (vsbtyp1): Gymnasium
 
-ao2: 2: Gesamtschule mit gymnasialer Oberstufe
+ao2: (vsbtyp2): Gesamtschule mit gymnasialer Oberstufe
 
-ao3: 3: Schule in freier Trägerschaft (z.B. Waldorfschule)
+ao3: (vsbtyp3): Schule in freier Trägerschaft (z.B. Waldorfschule)
 
-ao4: 4: Abendgymnasium, Kolleg (nicht Berufskolleg)
+ao4: (vsbtyp4): Abendgymnasium, Kolleg (nicht Berufskolleg)
 
-ao5: 5: Fachgymnasium, berufliches Gymnasium
+ao5: (vsbtyp5): Fachgymnasium, berufliches Gymnasium
 
-ao6: 6: Berufsfachschule
+ao6: (vsbtyp6): Berufsfachschule
 
-ao7: 7: Berufsoberschule
+ao7: (vsbtyp7): Berufsoberschule
 
-ao8: 8: Fachoberschule
+ao8: (vsbtyp8): Fachoberschule
 
-ao9: 9: andere berufsbildende Schule (Fachschule, Fachakademie, Berufskolleg u.
-a.)
+ao9: (vsbtyp9): andere berufsbildende Schule (Fachschule, Fachakademie, Berufskolleg u. a.)
 
-ao10: 10: berufliche Aufstiegsfortbildung als Meister, Techniker, Fachwirt,
-Erzieher o.ä.
+ao10: (vsbtyp10): berufliche Aufstiegsfortbildung als Meister, Techniker, Fachwirt, Erzieher o.ä.
 
-ao11: 11: abgeschlossene Berufsausbildung mit anschließender Berufspraxis
+ao11: (vsbtyp11): abgeschlossene Berufsausbildung mit anschließender Berufspraxis
 
-ao12: 12: Eignungsprüfung für Kunst- und Musikhochschulen
+ao12: (vsbtyp12): Eignungsprüfung für Kunst- und Musikhochschulen
 
-ao13: 13: Begabtenprüfung
+ao13: (vsbtyp13): Begabtenprüfung
 
-ao14: 14: Mediziner\*innen-Test (TMS)
+ao14: (vsbtyp14): Mediziner\*innen-Test (TMS)
 
-ao15: 15: auf einem anderen Weg,
+ao15: (vsbtyp15): auf einem anderen Weg,
 
-ato: 50: Prefix: und zwar:
+ato: (vsbtypob): Prefix: und zwar:
 
 mv:
 
-ka: ka1 (ao1 TO ao9) Schulischer Weg: : ka2(ao10 TO ao11) Berufliche
-Qualifikation: :ka3(ao12 TO ao15) Eignungsprüfungen:
+ka: ka1 (ao1 TO ao9) Schulischer Weg: : ka2(ao10 TO ao11) Berufliche Qualifikation: :ka3(ao12 TO ao15) Eignungsprüfungen:
 
 vc:
 
@@ -2655,8 +2592,7 @@ fv:
 
 hv:
 
-fo: Bitte die Beispiele in Klammern in etwas kleinerer Schriftgröße (2pt
-kleiner) umsetzen.
+fo: Bitte die Beispiele in Klammern in etwas kleinerer Schriftgröße (2pt kleiner) umsetzen.
 
 tr: GOTO SDK-vbi7
 
@@ -2669,7 +2605,7 @@ SDK-vbi7
 
 tc:
 
-vn: vsbnoteo, vsbnote
+vn: vsbnoteo; vsbnote
 
 qt: offene Frage
 
@@ -2677,8 +2613,7 @@ hl:
 
 in:
 
-q: Welche Abschlussnote hatten Sie in dem Zeugnis, das Sie zur Aufnahme eines
-Studiums berechtigt?
+q: Welche Abschlussnote hatten Sie in dem Zeugnis, das Sie zur Aufnahme eines Studiums berechtigt?
 
 is: (bitte Punktzahl ggf. in Note umrechnen)
 
@@ -2739,7 +2674,7 @@ it:
 
 st:
 
-ao1:1: Jahr:
+ao1: 1: Jahr:
 
 ao2: -12: weiß ich nicht
 
@@ -2778,9 +2713,7 @@ hl:
 
 in:
 
-q: In welchem Jahr haben Sie die Hochschulzugangsberechtigung erlangt
-
-(Zeitpunkt der Zeugnisübergabe)?
+q: In welchem Jahr haben Sie die Hochschulzugangsberechtigung erlangt (Zeitpunkt der Zeugnisübergabe)?
 
 is:
 
@@ -2827,8 +2760,7 @@ hl:
 
 in:
 
-q: Haben Sie vor Ihrer Erstimmatrikulation bereits eine Berufsausbildung
-begonnen bzw. abgeschlossen?
+q: Haben Sie vor Ihrer Erstimmatrikulation bereits eine Berufsausbildung begonnen bzw. abgeschlossen?
 
 is:
 
@@ -3105,9 +3037,7 @@ in:
 
 q: Welche Abschlussnote haben sie in ihrem vorhergien Studium erhalten?
 
-is: Für den Fall, dass Sie keine Noten erhalten haben, sondern Ihre
-Studienleistungen mit Punkten, Prozentangaben o. Ä. bewertet werden, rechnen Sie
-diese bitte in eine Abschlussnote um.
+is: Für den Fall, dass Sie keine Noten erhalten haben, sondern Ihre Studienleistungen mit Punkten, Prozentangaben o. Ä. bewertet werden, rechnen Sie diese bitte in eine Abschlussnote um.
 
 it:
 
@@ -3115,8 +3045,7 @@ st:
 
 ao1: 1: offene Angabe: 3, Prefix: Abschlussnote (z. B. 2,5):
 
-ao2: -11: Ich habe keine Note erhalten. / In meinem vorigen Studium gab es keine
-Noten.
+ao2: -11: Ich habe keine Note erhalten. / In meinem vorigen Studium gab es keine Noten.
 
 ao3: -12: Weiß ich nicht
 
@@ -3151,7 +3080,7 @@ SDK-stu17
 
 tc:
 
-vn: mastplan/ promoplan
+vn: mastplan; promoplan
 
 qt: Einfachauswahl matrix
 
@@ -3263,7 +3192,7 @@ SDK-pla02
 
 tc:
 
-vn: ssweja/ saweja/ shwja/ ssuja
+vn: ssweja; saweja; shwja; ssuja
 
 qt: Einfachauswahl matrix
 
@@ -3273,8 +3202,7 @@ in:
 
 q: Haben Sie seit Ihrer Erstimmatrikulation…
 
-is: (Nicht gemeint sind Veränderungen bzw. Unterbrechungen beim Übergang vom
-Bachelor- ins Masterstudium)
+is: (Nicht gemeint sind Veränderungen bzw. Unterbrechungen beim Übergang vom Bachelor- ins Masterstudium)
 
 it1: ssweja: … das Studienfach gewechselt?
 
@@ -3333,11 +3261,11 @@ it:
 
 st: … eine Promotion aufnehmen?
 
-ao1:1: 1: sehr unwahrscheinlich
+ao1: 1: 1: sehr unwahrscheinlich
 
 ao2: 2: 2:
 
-ao3: 3 : 3:
+ao3: 3: 3:
 
 ao4: 4: 4:
 
@@ -3372,7 +3300,7 @@ SDK-pla02
 
 tc:
 
-vn: ssahswe / ssafawe/ ssaunt/ ssaaja
+vn: ssahswe; ssafawe; ssaunt; ssaaja
 
 qt: Einfachauswahl matrix
 
@@ -3384,13 +3312,13 @@ q: Wie ernsthaft denken Sie zur Zeit daran …
 
 is:
 
-it1: ssahswe: … die Hochschule zu wechseln?
+it1: (ssahswe): … die Hochschule zu wechseln?
 
-it2: ssafawe: … Ihr Studienfach zu wechseln?
+it2: (ssafawe): … Ihr Studienfach zu wechseln?
 
-it3: ssaunt: … Ihr aktuelles Studium zu unterbrechen?
+it3: (ssaunt): … Ihr aktuelles Studium zu unterbrechen?
 
-it4: ssaaja: … das Studium ganz aufzugeben?
+it4: (ssaaja): … das Studium ganz aufzugeben?
 
 st:
 
@@ -3439,31 +3367,29 @@ hl:
 
 in:
 
-q1: Wie wohnen Sie während der Vorlesungszeit des aktuellen Semesters
-[Individualisierung]?
+q1: Wie wohnen Sie während der Vorlesungszeit des aktuellen Semesters [Individualisierung]?
 
 q2: Wie wohnen Sie während der Vorlesungszeit des aktuellen Semesters?
 
-is: Wenn Sie bei Ihren Eltern oder anderen Verwandten/Bekannten wohnen, geben
-Sie bitte die Wohnform Ihrer Eltern bzw. der Verwandten/Bekannten an.
+is: Wenn Sie bei Ihren Eltern oder anderen Verwandten/Bekannten wohnen, geben Sie bitte die Wohnform Ihrer Eltern bzw. der Verwandten/Bekannten an.
 
 it:
 
 st:
 
-ao1:1: zur Miete (auch Wohngemeinschaft)
+ao1: 1: zur Miete (auch Wohngemeinschaft)
 
-ao2:2: zur Untermiete
+ao2: 2: zur Untermiete
 
-ao3:3: als (Mit-)Eigentümer(in)
+ao3: 3: als (Mit-)Eigentümer(in)
 
-ao4:4: im Einzelzimmer (Flurgemeinschaft)
+ao4: 4: im Einzelzimmer (Flurgemeinschaft)
 
-ao5:5: im Einzelzimmer (in einer Wohngruppe)
+ao5: 5: im Einzelzimmer (in einer Wohngruppe)
 
-ao6:6: im Einzelappartement
+ao6: 6: im Einzelappartement
 
-ao7:7: in einer Mehrzimmerwohnung (für Paare oder Studierende mit Kind)
+ao7: 7: in einer Mehrzimmerwohnung (für Paare oder Studierende mit Kind)
 
 mv:
 
@@ -3498,7 +3424,7 @@ SDK-woh02
 
 tc:
 
-vn: wohnal, wohnwg, wohnel, wohnpar, wohnkin, wohnfam, wohnsons
+vn: wohnal; wohnwg; wohnel; wohnpar; wohnkin; wohnfam; wohnsons
 
 qt: Mehrfachauswahl
 
@@ -3506,8 +3432,7 @@ hl:
 
 in:
 
-q1: Mit wem wohnen Sie während der Vorlesungszeit des aktuellen Semesters
-[Individualisierung] zusammen?
+q1: Mit wem wohnen Sie während der Vorlesungszeit des aktuellen Semesters [Individualisierung] zusammen?
 
 q2: Mit wem wohnen Sie zusammen?
 
@@ -3517,19 +3442,19 @@ it:
 
 st: Ich wohne …
 
-ao1:1: allein [EK]
+ao1: 1: allein [EK]
 
-ao2:2: mit Mitbewohner(inne)n in einer Wohngemeinschaft.
+ao2: 2: mit Mitbewohner(inne)n in einer Wohngemeinschaft.
 
-ao3:3: bei/mit meinen Eltern (bzw. Elternteil)
+ao3: 3: bei/mit meinen Eltern (bzw. Elternteil)
 
-ao4:4: mit meinem/meiner (Ehe-) Partner(in).
+ao4: 4: mit meinem/meiner (Ehe-) Partner(in).
 
-ao5:5: mit meinem Kind/meinen Kindern.
+ao5: 5: mit meinem Kind/meinen Kindern.
 
-ao6:6: mit anderen Familienangehörigen.
+ao6: 6: mit anderen Familienangehörigen.
 
-ao7:7: mit anderen Personen.
+ao7: 7: mit anderen Personen.
 
 mv:
 
@@ -3572,28 +3497,25 @@ in:
 
 q: Sind Sie während der Vorlesungszeit [Individualisierung] erwerbstätig?
 
-is: Mit \*\*„*Erwerbstätigkeit(en)*“\*\* sind sämtliche Tätigkeiten gemeint, mit
-denen Sie im aktuellen Semester Geld verdienen (z. B. Nebenjob, Berufstätigkeit,
-freiberufliche/selbständige Tätigkeit).
+is: Mit \*\*„*Erwerbstätigkeit(en)*“\*\* sind sämtliche Tätigkeiten gemeint, mit denen Sie im aktuellen Semester Geld verdienen (z. B. Nebenjob, Berufstätigkeit, freiberufliche/selbständige Tätigkeit).
 
 it:
 
 st:
 
-ao1:1: Nein
+ao1: 1: Nein
 
-ao2:2: Ja, mit einer Tätigkeit
+ao2: 2: Ja, mit einer Tätigkeit
 
-ao3:3: Ja, mit zwei verschiedenen Tätigkeiten
+ao3: 3: Ja, mit zwei verschiedenen Tätigkeiten
 
-ao4:4: Ja, mit drei oder mehreren Tätigkeiten
+ao4: 4: Ja, mit drei oder mehreren Tätigkeiten
 
 mv:
 
 ka:
 
-vc: SHOW Individualisierung if sformdua==1 : neben Ihrer Tätigkeit in der
-Ausbildungsstätte
+vc: SHOW Individualisierung if sformdua==1 : neben Ihrer Tätigkeit in der Ausbildungsstätte
 
 av:
 
@@ -3624,28 +3546,27 @@ hl:
 
 in:
 
-q: In welchem Maße [Individualisierung] einen fachlichen Bezug zu Ihrem
-aktuellen Studium?
+q: In welchem Maße [Individualisierung] einen fachlichen Bezug zu Ihrem aktuellen Studium?
 
 is:
 
-it:1: Tätigkeit A [Individualisierung]
+it: 1: Tätigkeit A [Individualisierung]
 
-it:2: Tätigkeit B [Individualisierung]
+it: 2: Tätigkeit B [Individualisierung]
 
-it:3: Tätigkeit C [Individualisierung]
+it: 3: Tätigkeit C [Individualisierung]
 
 st:
 
-ao1:1: 1: in gar keinem Maße
+ao1: 1: 1: in gar keinem Maße
 
-ao2:2: 2:
+ao2: 2: 2:
 
-ao3:3: 3:
+ao3: 3: 3:
 
-ao4:4: 4:
+ao4: 4: 4:
 
-ao5:5: : in sehr hohem Maße
+ao5: 5: : in sehr hohem Maße
 
 mv:
 
@@ -3653,18 +3574,15 @@ ka:
 
 vc: SHOW Individualisierung if eaktsens=2 : hat ihre Erwerbstätigkeit
 
-SHOW Individualisierung if eaktsens=2 AND sformdua=1 : hat Ihre
-Erwerbstätigkeit, die Sie neben Ihrer Tätigkeit im Ausbildungsbetrieb ausüben,
+SHOW Individualisierung if eaktsens=2 AND sformdua=1 : hat Ihre Erwerbstätigkeit, die Sie neben Ihrer Tätigkeit im Ausbildungsbetrieb ausüben,
 
-SHOW Individualisierung if eaktsens=3 : haben Ihre Erwerbstätigkeiten
+SHOW Individualisierung if eaktsens=3 : haben Ihre Erwerbstätigkeiten 
 
-SHOW Individualisierung if eaktsens=3 AND sformdua=1 : haben Ihre
-Erwerbstätigkeiten, die Sie neben Ihrer Tätigkeit im Ausbildungsbetrieb ausüben,
+SHOW Individualisierung if eaktsens=3 AND sformdua=1 : haben Ihre Erwerbstätigkeiten, die Sie neben Ihrer Tätigkeit im Ausbildungsbetrieb ausüben,
 
 SHOW Individualisierung if eaktsens=4 : haben Ihre Erwerbstätigkeiten
 
-SHOW Individualisierung if eaktsens=4 AND sformdua=1 : haben Ihre
-Erwerbstätigkeiten, die Sie neben Ihrer Tätigkeit im Ausbildungsbetrieb ausüben,
+SHOW Individualisierung if eaktsens=4 AND sformdua=1 : haben Ihre Erwerbstätigkeiten, die Sie neben Ihrer Tätigkeit im Ausbildungsbetrieb ausüben,
 
 SHOW it1 if eaktsens=2
 
@@ -3709,20 +3627,19 @@ in:
 
 q: Haben Sie sich während Ihres Studiums studienbezogen im Ausland aufgehalten?
 
-is: (z. B. Auslandsstudium/-semester, Auslandspraktikum, Sprachkurs im Ausland,
-Studienreise im Ausland, Projektarbeit im Ausland, Summerschool im Ausland)
+is: (z. B. Auslandsstudium/-semester, Auslandspraktikum, Sprachkurs im Ausland, Studienreise im Ausland, Projektarbeit im Ausland, Summerschool im Ausland)
 
 it:
 
 st:
 
-ao1:1: Nein
+ao1: 1: Nein
 
-ao2:2: Ja, ein Aufenthalt
+ao2: 2: Ja, ein Aufenthalt
 
-ao3:3: Ja, zwei Aufenthalte
+ao3: 3: Ja, zwei Aufenthalte
 
-ao4:4: Ja, drei oder mehr Aufenthalte
+ao4: 4: Ja, drei oder mehr Aufenthalte
 
 mv:
 
@@ -3759,11 +3676,9 @@ hl:
 
 in:
 
-q1: Beabsichtigen Sie künftig einen studienbezogenen Auslandsaufenthalt
-durchzuführen?
+q1: Beabsichtigen Sie künftig einen studienbezogenen Auslandsaufenthalt durchzuführen?
 
-q2: Beabsichtigen Sie einen weiteren studienbezogenen Auslandsaufenthalt
-durchzuführen?
+q2: Beabsichtigen Sie einen weiteren studienbezogenen Auslandsaufenthalt durchzuführen?
 
 is:
 
@@ -3771,13 +3686,13 @@ it:
 
 st:
 
-ao1:1: Nein, kein Interesse
+ao1: 1: Nein, kein Interesse
 
-ao2:2: Nein, sehe keine Realisierungschance
+ao2: 2: Nein, sehe keine Realisierungschance
 
-ao3:3: Weiß ich noch nicht
+ao3: 3: Weiß ich noch nicht
 
-ao4:4: Ja
+ao4: 4: Ja
 
 mv:
 
@@ -3808,7 +3723,7 @@ SDK-zei01
 
 tc:
 
-vn: zlvwo, zseswo, zerwo, zcarwo, zlvwo2, zseswo2, zerwo2, zcarwo2
+vn: zlvwo; zseswo; zerwo; zcarwo; zlvwo2; zseswo2; zerwo2; zcarwo2
 
 qt: offene Frage Matrix
 
@@ -3816,32 +3731,23 @@ hl:
 
 in:
 
-q: Wie viele Stunden wenden Sie in einer für Sie typischen Woche für folgende
-Aktivitäten auf?
+q: Wie viele Stunden wenden Sie in einer für Sie typischen Woche für folgende Aktivitäten auf?
 
 is: Bitte runden Sie Ihre Zeitangaben jeweils auf volle Zeitstunden.
 
-it:1: Während der Vorlesungszeit / Studienphase
+it: (zlvwo): Während der Vorlesungszeit / Studienphase
 
-it:2: Während der vorlesungsfreien Zeit / Praxisphase
+it: 2: Während der vorlesungsfreien Zeit / Praxisphase
 
 st:
 
-ao1:1: Lehrveranstaltungen
+ao1: 1: Lehrveranstaltungen (Vorlesungen, Seminare, Übungen, Tutorien usw.)
 
-(Vorlesungen, Seminare, Übungen, Tutorien usw.)
+ao2: 2: Selbststudium (Vor‐/Nachbereitung, Referate, Fachlektüre, Studien-/Haus-/Abschlussarbeiten, stud. Lerngruppen, Prüfungsvorbereitung usw.)
 
-ao2:2: Selbststudium
+ao3: 3: Erwerbstätigkeit (Nebenjob, Beruf, freiberufliche/selbstständige Tätigkeit usw.)
 
-(Vor‐/Nachbereitung, Referate, Fachlektüre, Studien-/Haus-/Abschlussarbeiten,
-stud. Lerngruppen, Prüfungsvorbereitung usw.)
-
-ao3:3: Erwerbstätigkeit
-
-(Nebenjob, Beruf, freiberufliche/selbstständige Tätigkeit usw.)
-
-ao4:4: Pflege- und Betreuungsarbeiten (Familienleben, Kinderbetreuung, Pflege
-Angehöriger usw.)
+ao4: 4: Pflege- und Betreuungsarbeiten (Familienleben, Kinderbetreuung, Pflege Angehöriger usw.)
 
 mv:
 
@@ -3883,49 +3789,49 @@ Lebensweges?
 
 is:.
 
-it:1: hohes Einkommen
+it: 1: hohes Einkommen
 
-it:2: prestigeträchtige Berufsposition
+it: 2: prestigeträchtige Berufsposition
 
-it:3: sicherer Arbeitsplatz
+it: 3: sicherer Arbeitsplatz
 
-it:4: gute Aufstiegsmöglichkeiten
+it: 4: gute Aufstiegsmöglichkeiten
 
-it:5: flexible Arbeitszeiten
+it: 5: flexible Arbeitszeiten
 
-it:6: die Erwartungen meiner Vorgesetzten erfüllen
+it: 6: die Erwartungen meiner Vorgesetzten erfüllen
 
-it:7: verantwortungsvolle Aufgaben übernehmen
+it: 7: verantwortungsvolle Aufgaben übernehmen
 
-it:8: eigene Ideen verwirklichen zu können
+it: 8: eigene Ideen verwirklichen zu können
 
-it:9: selbstständig Entscheidungen treffen zu können
+it: 9: selbstständig Entscheidungen treffen zu können
 
-it:10: eine Arbeit, die mir immer wieder neue Aufgaben stellt
+it: 10: eine Arbeit, die mir immer wieder neue Aufgaben stellt
 
-it:11: Möglichkeit zu wissenschaftlicher Tätigkeit
+it: 11: Möglichkeit zu wissenschaftlicher Tätigkeit
 
-it:12: anderen Menschen helfen zu können
+it: 12: anderen Menschen helfen zu können
 
-it:13: ein Beruf, in dem man Nützliches für die Allgemeinheit tun kann
+it: 13: ein Beruf, in dem man Nützliches für die Allgemeinheit tun kann
 
-it:14: Vereinbarkeit von Privatleben (Familie) und Beruf
+it: 14: Vereinbarkeit von Privatleben (Familie) und Beruf
 
-it:15: eine glückliche Beziehung zu führen
+it: 15: eine glückliche Beziehung zu führen
 
-it:16: eine Familie zu gründen
+it: 16: eine Familie zu gründen
 
 st:
 
-ao1:1: 1: unbedeutend
+ao1: 1: 1: unbedeutend
 
-ao2:2: 2:
+ao2: 2: 2:
 
-ao3:3: 3:
+ao3: 3: 3:
 
-ao4:4: 4:
+ao4: 4: 4:
 
-ao5:5: 5: sehr bedeutend
+ao5: 5: 5: sehr bedeutend
 
 mv:
 

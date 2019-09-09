@@ -867,31 +867,31 @@ it:
 
 st:
 
-ao1: (faigefun) übernehmen eine wichtige gesellschaftliche Funktion
+ao1: (faigefun): übernehmen eine wichtige gesellschaftliche Funktion
 
-ao2: (faifinan) erwirtschaften hohe finanzielle Erträge
+ao2: (faifinan): erwirtschaften hohe finanzielle Erträge
 
-ao3: (faizeit) haben eine längere Wochenarbeitszeit
+ao3: (faizeit): haben eine längere Wochenarbeitszeit
 
-ao4: (fainive) hatten ein höheres Anforderungsniveau im Studium
+ao4: (fainive): hatten ein höheres Anforderungsniveau im Studium
 
-ao5: (faivolk) üben eine Tätigkeit aus, die von größerer Bedeutung für die Volkswirtschaft ist
+ao5: (faivolk): üben eine Tätigkeit aus, die von größerer Bedeutung für die Volkswirtschaft ist
 
-ao6: (failequal) tragen zur Sicherung der Lebensqualität in der Gesellschaft bei
+ao6: (failequal): tragen zur Sicherung der Lebensqualität in der Gesellschaft bei
 
-ao7: (faiveran) übernehmen mehr Verantwortung im Beruf
+ao7: (faiveran): übernehmen mehr Verantwortung im Beruf
 
-ao8: (faikennt) verfügen über am Arbeitsmarkt stärker nachgefragte Kenntnisse und Fertigkeiten
+ao8: (faikennt): verfügen über am Arbeitsmarkt stärker nachgefragte Kenntnisse und Fertigkeiten
 
-ao9: (faikompl) führen komplexere Aufgaben im Beruf aus
+ao9: (faikompl): führen komplexere Aufgaben im Beruf aus
 
-ao10: (faiflex) haben nur geringere zeitliche/räumliche Flexibilität in ihrer Tätigkeit
+ao10: (faiflex): haben nur geringere zeitliche/räumliche Flexibilität in ihrer Tätigkeit
 
-ao11: (faistre) haben mehr Stress/Belastungen am Arbeitsplatz
+ao11: (faistre): haben mehr Stress/Belastungen am Arbeitsplatz
 
-ao12: (faiand) anderer Grund, und zwar:_____\_
+ao12: (faiand): anderer Grund, und zwar:_____\_
 
-ao13: (faiand_open) [60 Zeichen]
+ao13: (faiand_open): [60 Zeichen]
 
 mv:
 
@@ -936,19 +936,19 @@ Weshalb wird man Ihrer Meinung nach eher abgelehnt?
 
 is:
 
-it1: (faidisge) aufgrund des Geschlechts
+it1: (faidisge): aufgrund des Geschlechts
 
-it2: (faidismig) aufgrund des Migrationshintergrunds
+it2: (faidismig): aufgrund des Migrationshintergrunds
 
-it3: (faidissoz) aufgrund der sozialen Herkunft
+it3: (faidissoz): aufgrund der sozialen Herkunft
 
-it4: (faidisspra) aufgrund der sprachlichen Ausdrucksweise (Dialekt, weniger gewandt)
+it4: (faidisspra): aufgrund der sprachlichen Ausdrucksweise (Dialekt, weniger gewandt)
 
-it5: (faidisrel) aufgrund religiöser Zugehörigkeit
+it5: (faidisrel): aufgrund religiöser Zugehörigkeit
 
-it6: (faidissex) aufgrund der sexuellen Orientierung
+it6: (faidissex): aufgrund der sexuellen Orientierung
 
-it7: (faidisbeein) aufgrund physischer oder psychischer Beeinträchtigung
+it7: (faidisbeein): aufgrund physischer oder psychischer Beeinträchtigung
 
 st:
 
@@ -999,19 +999,19 @@ q: Haben Sie in Ihrem bisherigen Studium an der Hochschule schon einmal Benachte
 
 is:
 
-it1: (faierlge) aufgrund des Geschlechts
+it1: (faierlge): aufgrund des Geschlechts
 
-it2: (faierlmig) aufgrund des Migrationshintergrunds
+it2: (faierlmig): aufgrund des Migrationshintergrunds
 
-it3: (faierlsoz) aufgrund der sozialen Herkunft
+it3: (faierlsoz): aufgrund der sozialen Herkunft
 
-it4: (faierlspra) aufgrund der sprachlichen Ausdrucksweise (Dialekt, weniger gewandt)
+it4: (faierlspra): aufgrund der sprachlichen Ausdrucksweise (Dialekt, weniger gewandt)
 
-it5: (faierlrel) aufgrund religiöser Zugehörigkeit
+it5: (faierlrel): aufgrund religiöser Zugehörigkeit
 
-it6: (faierlsex) aufgrund der sexuellen Orientierung
+it6: (faierlsex): aufgrund der sexuellen Orientierung
 
-it7: (faierlbeein) aufgrund physischer oder psychischer Beeinträchtigung
+it7: (faierlbeein): aufgrund physischer oder psychischer Beeinträchtigung
 
 st:
 

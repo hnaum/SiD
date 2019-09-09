@@ -113,7 +113,7 @@ KSM-fai03
 
 tc:
 
-vn: faihs/ faiein/ faiunt
+vn: faihs; faiein; faiunt
 
 qt: Einfachauswahlmatrix
 

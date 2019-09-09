@@ -58,10 +58,7 @@ KSM-anf02
 
 tc:
 
-vn: intsoc1 / intsoc2 / intinv1 / intinv2 / intart1 / intart2 / intent1 /
-intent2 / intconv1 / intconv2 / intreal1 / intreal2 / intsoc3 / intsoc4 /
-intinv3 / intinv4 / intart3/ intart4/ intent3 / intent4 / intconv3/ intconv4 /
-intreal3 / intreal4
+vn: intsoc1; intsoc2; intinv1; intinv2; intart1; intart2; intent1; intent2; intconv1; intconv2; intreal1; intreal2; intsoc3; intsoc4; intinv3; intinv4; intart3; intart4; intent3; intent4; intconv3; intconv4; intreal3; intreal4
 
 qt: Einfachauswahlmatrix
 
@@ -73,53 +70,53 @@ q: Bitte geben Sie an, wie sehr Sie sich für folgende Tätigkeiten interessiere
 
 is:
 
-it1: (intsoc1) anderen Menschen helfen
+it1: (intsoc1): anderen Menschen helfen
 
-it2: (intsoc2) sich mit gesellschaftlichen Themen befassen
+it2: (intsoc2): sich mit gesellschaftlichen Themen befassen
 
-it3: (intinv1) etwas genau beobachten und analysieren
+it3: (intinv1): etwas genau beobachten und analysieren
 
-it4: (intinv2) Unbekanntes erforschen, experimentieren
+it4: (intinv2): Unbekanntes erforschen, experimentieren
 
-it5: (intart1) kreativ/gestaltend tätig sein
+it5: (intart1): kreativ/gestaltend tätig sein
 
-it6: (intart2) sich mit Kunst/Literatur/Sprache/ Musik/Design befassen
+it6: (intart2): sich mit Kunst/Literatur/Sprache/ Musik/Design befassen
 
-it7: (intent1) Unternehmen gründen und leiten
+it7: (intent1): Unternehmen gründen und leiten
 
-ao8: (intent2) andere von einer Sache überzeugen
+ao8: (intent2): andere von einer Sache überzeugen
 
-ao9: (intconv1) Dinge ordnen und verwalten
+ao9: (intconv1): Dinge ordnen und verwalten
 
-ao10: (Intconv2) sich mit rechtlichen Fragen beschäftigen
+ao10: (Intconv2): sich mit rechtlichen Fragen beschäftigen
 
-ao11: (intreal1) untersuchen, wie Dinge funktionieren
+ao11: (intreal1): untersuchen, wie Dinge funktionieren
 
-ao12: (intreal2) innovative technische Lösungen entwickeln
+ao12: (intreal2): innovative technische Lösungen entwickeln
 
-ao13: (intsoc3) sich mit den Lebenslagen von Menschen/Gruppen auseinandersetzen
+ao13: (intsoc3): sich mit den Lebenslagen von Menschen/Gruppen auseinandersetzen
 
-ao14: (intsoc4) Mit Menschen (zusammen)arbeiten
+ao14: (intsoc4): Mit Menschen (zusammen)arbeiten
 
-ao15: (intinv3) wissenschaftliche Aufsätze lesen
+ao15: (intinv3): wissenschaftliche Aufsätze lesen
 
-ao16: (intinv4) Lösungen für komplexe Probleme finden
+ao16: (intinv4): Lösungen für komplexe Probleme finden
 
-ao17: (intart3) Gebäude, Landschaften oder Gegenstände designen
+ao17: (intart3): Gebäude, Landschaften oder Gegenstände designen
 
-ao18: (intart4) Etwas sprachlich ansprechend formulieren
+ao18: (intart4): Etwas sprachlich ansprechend formulieren
 
-ao19: (intent3) Andere Menschen anleiten oder führen
+ao19: (intent3): Andere Menschen anleiten oder führen
 
-ao20: (intent4) Events organisieren oder leiten
+ao20: (intent4): Events organisieren oder leiten
 
-ao21: (intconv3) Arbeitsprozesse planen
+ao21: (intconv3): Arbeitsprozesse planen
 
-ao22: (intconv4) Mit Zahlen oder Statistiken arbeiten
+ao22: (intconv4): Mit Zahlen oder Statistiken arbeiten
 
-ao23: (intreal3) An Soft- oder Hardware arbeiten
+ao23: (intreal3): An Soft- oder Hardware arbeiten
 
-ao24: (intreal4) Konstruktion von Bauwerken
+ao24: (intreal4): Konstruktion von Bauwerken
 
 st:
 
@@ -160,8 +157,7 @@ KSM-anf03
 
 tc:
 
-vn: erwfach / erwwiss / erwleis / erweiglei / erwori / erwatmo / erwdid /
-erwauss / erwansp
+vn: erwfach; erwwiss; erwleis; erweiglei; erwori; erwatmo; erwdid; erwauss; erwansp
 
 qt: Einfachauswahlmatrix
 
@@ -173,23 +169,23 @@ q: Inwiefern wurden Ihre Erwartungen hinsichtlich der folgenden Aspekte erfüllt
 
 is:
 
-it1: (erwfach) fachliche Inhalte des Studiums
+it1: (erwfach): fachliche Inhalte des Studiums
 
-it2: (erwwiss) wissenschaftliches Arbeiten
+it2: (erwwiss): wissenschaftliches Arbeiten
 
-it3: (erwleis) Höhe der Leistungsanforderungen
+it3: (erwleis): Höhe der Leistungsanforderungen
 
-it4: (erweiglei) eigene Leistungsfähigkeit
+it4: (erweiglei): eigene Leistungsfähigkeit
 
-it5: (erwori) Orientierungshilfe und Betreuung durch die Hochschule
+it5: (erwori): Orientierungshilfe und Betreuung durch die Hochschule
 
-it6: (erwatmo) Atmosphäre unter den Studierenden
+it6: (erwatmo): Atmosphäre unter den Studierenden
 
-it7: (erwdid) didaktische Fähigkeiten der Hochschullehrer\*innen
+it7: (erwdid): didaktische Fähigkeiten der Hochschullehrer\*innen
 
-ao8: (erwauss) Ausstattung (Arbeits-, Bibliotheks-, Laborplätze)
+ao8: (erwauss): Ausstattung (Arbeits-, Bibliotheks-, Laborplätze)
 
-ao9: (erwansp) Ansprechbarkeit der Lehrenden
+ao9: (erwansp): Ansprechbarkeit der Lehrenden
 
 st:
 
@@ -230,8 +226,7 @@ KSM-anf04
 
 tc:
 
-vn: studall1 / studall2 / studall3 / studall4 / studall5 / studall6 / studall7 /
-studall8
+vn: studall1; studall2; studall3; studall4; studall5; studall6; studall7; studall8
 
 qt: Einfachauswahlmatrix
 
@@ -243,21 +238,21 @@ q: Bereiten Ihnen folgende Aspekte des Studienalltags Schwierigkeiten?
 
 is:
 
-it1: (studall1) Wechsel der Umgebung
+it1: (studall1): Wechsel der Umgebung
 
-it2: (studall2) Wohnsituation
+it2: (studall2): Wohnsituation
 
-it3: (studall3) Einrichten an der Hochschule (Immatrikulation, Seminarplan)
+it3: (studall3): Einrichten an der Hochschule (Immatrikulation, Seminarplan)
 
-it4: (studall4) Heimweh (Familie, Freunde)
+it4: (studall4): Heimweh (Familie, Freunde)
 
-it5: (studall5) Studienfinanzierung
+it5: (studall5): Studienfinanzierung
 
-it6: (studall6) Vereinbarkeit von Studium und Erwerbstätigkeit
+it6: (studall6): Vereinbarkeit von Studium und Erwerbstätigkeit
 
-it7: (studall7) Alltagsorganisation
+it7: (studall7): Alltagsorganisation
 
-ao8: (studall8) Eigenverantwortung
+ao8: (studall8): Eigenverantwortung
 
 st:
 
@@ -298,8 +293,7 @@ KSM-anf05
 
 tc:
 
-vn: schwstud1 / schwstud2 / schwstud3 / schwstud4 / schwstud5 / schwstud6 /
-schwstud7 / schwstud8 / schwstud9 / schwstud10 / schwstud11
+vn: schwstud1; schwstud2; schwstud3; schwstud4; schwstud5; schwstud6; schwstud7; schwstud8; schwstud9; schwstud10; schwstud11
 
 qt: Einfachauswahlmatrix
 
@@ -311,28 +305,27 @@ q: Inwiefern bereiten Ihnen folgende Aspekte im Studium Schwierigkeiten?
 
 is:
 
-it1: (schwstud1) Wissenschaftlichkeit (z.B. akademische Sprache, Denk- und
-Arbeitsweise)
+it1: (schwstud1): Wissenschaftlichkeit (z.B. akademische Sprache, Denk- und Arbeitsweise)
 
-it2: (schwstud2) sich an Diskussionen beteiligen
+it2: (schwstud2): sich an Diskussionen beteiligen
 
-it3: (schwstud3) zeitliche Vorgaben erfüllen
+it3: (schwstud3): zeitliche Vorgaben erfüllen
 
-it4: (schwstud4) Lernstrategien entwickeln
+it4: (schwstud4): Lernstrategien entwickeln
 
-it5: (schwstud5) Veranstaltungsinhalten folgen
+it5: (schwstud5): Veranstaltungsinhalten folgen
 
-it6: (schwstud6) englische Sprache (Veranstaltungssprache, Literatur)
+it6: (schwstud6): englische Sprache (Veranstaltungssprache, Literatur)
 
-it7: (schwstud7) Prüfungsanforderungen bewältigen
+it7: (schwstud7): Prüfungsanforderungen bewältigen
 
-ao8: (schwstud8) mit Misserfolgen umgehen
+ao8: (schwstud8): mit Misserfolgen umgehen
 
-ao9: (schwstud9) die Menge an Lernstoff bewältigen
+ao9: (schwstud9): die Menge an Lernstoff bewältigen
 
-ao10: (schwstud10) eigene Interessen erkennen
+ao10: (schwstud10): eigene Interessen erkennen
 
-ao11: (schwstud11) Kontakte zu Mitstudierenden knüpfen
+ao11: (schwstud11): Kontakte zu Mitstudierenden knüpfen
 
 st:
 

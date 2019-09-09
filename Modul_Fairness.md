@@ -173,8 +173,7 @@ KSM-fai04
 
 tc:
 
-vn: faians / faiint / faiorg / faiausd / faisich / faiemo / faifina / faiglü /
-faiprof / faielt / fainat / faiges
+vn: faians; faiint; faiorg; faiausd; faisich; faiemo; faifina; faiglü; faiprof; faielt; fainat; faiges
 
 qt: Einfachauswahlmatrix
 
@@ -250,7 +249,7 @@ KSM-fai05
 
 tc:
 
-vn: faischuet / faimut / faiausl / faiprot / faimei / faians
+vn: faischuet; faimut; faiausl; faiprot; faimei; faians
 
 qt: Einfachauswahlmatrix
 
@@ -934,8 +933,7 @@ KSM-fai07
 
 tc:
 
-vn: faigefun / faifinan / faizeit / fainive / faivolk / failequal / faiveran /
-faikennt / faikompl / faiflex / faistre / faiand/ faiand_open
+vn: faigefun; faifinan; faizeit; fainive; faivolk; failequal; faiveran; faikennt; faikompl; faiflex; faistre; faiand;  faiand_open
 
 qt: Mehrfachauswahl mit vertikaler Antwortoption und offenem Feld
 
@@ -979,7 +977,7 @@ ao11: (faistre) haben mehr Stress/Belastungen am Arbeitsplatz
 
 ao12: (faiand) anderer Grund, und zwar:_____\_
 
-ao13: (faiand_open) [60 Zeichen
+ao13: (faiand_open) [60 Zeichen]
 
 mv:
 
@@ -1014,8 +1012,7 @@ KSM-fai08
 
 tc:
 
-vn: faidisge / faidismig / faidissoz / faidisspra / faidisrel / faidissex /
-faidisbeein
+vn: faidisge; faidismig; faidissoz; faidisspra; faidisrel; faidissex; faidisbeein
 
 qt: Einfachauswahlmatrix
 
@@ -1082,8 +1079,7 @@ KSM-fai09
 
 tc:
 
-vn: faierlge_s/a; faierlmig_s/a; faierlsoz_s/a; faierlspra_s/a; faierlrel_s/a;
-faierlsex_s/a; faierlbeein_s/a
+vn: faierlge_s/_a; faierlmig_s/_a; faierlsoz_s/_a; faierlspra_s/_a; faierlrel_s/_a; faierlsex_s/_a; faierlbeein_s/_a
 
 qt: Mehrfachauswahlmatrix
 

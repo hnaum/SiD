@@ -975,15 +975,15 @@ it:
 
 st:
 
-ao1 (promno): 1: nein
+ao1 (promno): nein
 
-ao2 (promges): 2: ja, Geschwister
+ao2 (promges): ja, Geschwister
 
-ao3 (promelt): 3: ja, Eltern
+ao3 (promelt): ja, Eltern
 
-ao4 (promgroß): 4: ja, Großeltern
+ao4 (promgroß): ja, Großeltern
 
-ao5 (promver): 5: ja, andere Verwandte
+ao5 (promver): ja, andere Verwandte
 
 mv: -12: weiß ich nicht
 

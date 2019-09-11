@@ -1,8 +1,8 @@
-Master-Vignetten
+
 
 \--------------------------------
 
-mvig1[deck][vignr]
+pvig1[deck][vignr]
 ==================
 
 tc:

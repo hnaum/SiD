@@ -173,7 +173,7 @@ tc:
 
 vn: promgrund1- promgrund13; promgrund13o
 
-qt: Mehrfachauswahl
+qt: Einfachauswahlmatrix
 
 hl:
 
@@ -225,7 +225,7 @@ mv:
 
 ka:
 
-vc: SHOW mastergrund1- mastergrund15 (gesamte Matrix) IF „Masterintention = ja“
+vc: 
 
 av:
 
@@ -239,8 +239,7 @@ fo:
 
 tr:
 
-hi: Wo und mit welcher Variable „Masterintention“ erhoben wird, ist mir nicht
-klar Variablenbezug zur Einblendbedingung fehlt noch
+hi: 
 
 \--------------------------------
 

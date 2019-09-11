@@ -169,7 +169,7 @@ Vignetten wird in einer Excel-Liste geliefert.
 KSM-phd02
 =========
 
-tc: promgrund1=1 (ja) (Item in Frage KSM-prom0201)
+tc: 
 
 vn: promgrund1- promgrund13; promgrund13o
 

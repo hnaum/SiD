@@ -23,11 +23,11 @@ Hochschule, der auf Ihrem angestrebten Bachelorabschluss fachlich aufbaut.
 Wohnkosten und Freizeitmöglichkeiten entsprechen in etwa Ihrem jetzigen
 Studienort.
 
-in1: [vig1]
+in1: [vigA]
 
-in2: [vig2]
+in2: [vigB]
 
-in3: [vig3]
+in3: [vigC]
 
 q4: Wie wahrscheinlich würden Sie sich auf diesen Masterstudiengang bewerben?
 

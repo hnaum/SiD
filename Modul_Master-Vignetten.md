@@ -78,7 +78,7 @@ fo:
 tr:
 
 hi: vig1, vig2 und vig3 sind Absätze der Vignette, die Zuordnung und Auswahl der
-Vignetten wird in einer Excel-Liste geliefert.
+Vignetten wird in einer Excel-Liste geliefert: [Master-Vignetten](https://github.com/dzhw/SiD/blob/master/Vignetten_Master.xls)
 
 \--------------------------------
 

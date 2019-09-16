@@ -1,6 +1,6 @@
 \--------------------------------
 
-1
+B1_1
 =
 
 tc:
@@ -53,13 +53,13 @@ fo:
 
 tr:
 
-GOTO 2
+GOTO B1_2
 
 hi:
 
 \--------------------------------
 
-2
+B1_2
 =
 
 tc:
@@ -131,15 +131,15 @@ fo: Items bitte zufällig rotieren.
 
 tr:
 
-GOTO 4 IF demosex=3
+GOTO B1_4 IF demosex=3
 
-ELSE GOTO 3 (Aufteilung 3a und 3b)
+ELSE GOTO B1_3 (Aufteilung 3a und 3b)
 
 hi:
 
 \--------------------------------
 
-3a
+B1_3a
 ==
 
 tc: IF demosex\<\>3
@@ -155,8 +155,7 @@ in:
 
 q: Nachfolgend finden Sie eine Reihe von Aussagen über Frauen und Männer und
 ihre Beziehungen in der heutigen Gesellschaft. Bitte geben Sie an, in welchem
-Ausmaß Sie der jeweiligen Aussage zustimmen oder nicht zustimmen. Benutzen Sie
-dazu die folgende Skala:
+Ausmaß Sie der jeweiligen Aussage zustimmen oder nicht zustimmen.
 
 is:
 
@@ -216,24 +215,22 @@ Empfinden.
 it20: (besex10): Ein Mann sollte bereit sein, sein eigenes Wohl zu opfern, um
 für seine Frau sorgen zu können.
 
-it21: (hosex11): Feministinnen stellen an Männer unberechtigte Forderungen.
+it21: (hosex11): Feministinnen stellen oftmals unberechtigte Forderungen an Männer.
 
 it22: (besex11): Verglichen mit Männern haben Frauen einen feineren Sinn für
 Kultur und einen besseren Geschmack.
 
 st:
 
-ao1: 1: stimme überhaupt nicht zu
+ao1: 1: stimme gar nicht zu
 
-ao2: 2: stimme nicht zu
+ao2: 2: 
 
-ao3: 3: stimme eher nicht zu
+ao3: 3: 
 
-ao4: 4: stimme eher zu
+ao4: 4: 
 
-ao5: 5: stimme zu
-
-ao6: 6: stimme voll und ganz zu
+ao5: 5: stimme voll und ganz zu
 
 mv:
 
@@ -253,20 +250,20 @@ fo: Items bitte zufällig rotieren.
 
 tr:
 
-GOTO 4
+GOTO B1_4a IF wohnpar=1
+ELSE GOTO B1_5
 
 hi:
 
 \--------------------------------
 
-3b
+B1_3b
 ==
 
 tc: IF demosex\<\>3
 
-vn: trad01; trad02; trad03; trad04; trad05; trad06; trad07; trad08; trad09; trad010; trad11; trad12; trad13; trad14; trad15;  trad16; trad17; trad18; trad19; trad20; trad21,
+vn: chldsuffer; malebread; fulldadbad; wrkmumhome; chldben; fullmumtod; bothfull; fulldadtod; rolechange 
 
-ntrad01; ntrad02; ntrad03; ntrad04; ntrad05; ntrad06; ntrad07; ntrad08; ntrad09; ntrad10; ntrad11; ntrad12; ntrad13; ntrad14; ntrad15
 
 qt: Einfachauswahlmatrix
 
@@ -274,137 +271,40 @@ hl:
 
 in:
 
-q: Geben Sie bitte bei den folgenden Aussagen an, inwieweit sie sich mit Ihrer
-persönlichen Meinung decken. Tun Sie dies bitte, indem Sie jeweils den
-entsprechenden Zahlenwert für „sehr falsch“, „falsch“, „eher falsch“, „eher
-richtig“, „richtig“, „sehr richtig“ ankreuzen.
+q: Über die Aufgaben von Müttern und Vätern gibt es verschiedene Meinungen.
+Bitte geben Sie an, inwiefern Sie den folgenden Aussagen zustimmen.
 
 is:
 
-it1: (trad01): Es ist für eine Frau wichtiger, den Ehemann bei seiner Karriere
-zu unterstützen, als selbst Karriere zu machen.
+it1: (chldsuffer): Ein Kleinkind wird sicherlich darunter leiden, wenn seine Mutter berufstätig ist.
 
-it2: (trad02): Die Idee, dass junge Frauen und Mädchen in der Fußball-Bundesliga
-spielen, ist einfach lächerlich.
+it2: (malebread): Es ist für alle Beteiligten viel besser, wenn der Mann voll im Berufsleben steht und die Frau zu Hause bleibt und sich um den Haushalt und die Kinder kümmert.
 
-it3: (ntrad01): Der Anteil an Zeit und Energie, den jemand seiner Karriere
-einerseits und der Familie andererseits zukommen lässt, sollte von den
-persönlichen Wünschen und Interessen und nicht vom Geschlecht bestimmt werden.
+it3: (fulldadbad): Ein Vollzeit erwerbstätiger Vater kann sich nicht ausreichend um seine Kinder kümmern.
 
-it4: (trad03): Es ist für eine Frau wichtiger, eine gute Figur zu haben und gut
-gekleidet zu sein, als für einen Mann.
+it4: (wrkmumhome): Auch wenn beide Eltern erwerbstätig sind, ist es besser, wenn die Verantwortung für den Haushalt und die Kinder hauptsächlich bei der Frau liegt.
 
-it5: (trad04): Der alte Ausspruch "die Frau gehört ins Haus und zur Familie" ist
-im Grund richtig, und es sollte auch so bleiben.
+it5: (chldben): Es ist für ein Kind sogar gut, wenn seine Mutter berufstätig ist und sich nicht nur auf den Haushalt konzentriert.
 
-it6: (trad05): Eine Frau sollte gegenüber Männern nicht zu strebsam sein
+it6: (fullmumtod): Eine Vollzeiterwerbstätige Mutter kann zu ihrem Kleinkind normalerweise ein genauso inniges Verhältnis haben wie eine Mutter, die nicht berufstätig ist.
 
-it7: (trad06): Eine Frau, die in der Öffentlichkeit arbeitet (z.B. eine
-Verkäuferin), sollte nicht mehr arbeiten, wenn zu sehen ist, dass sie schwanger
-ist.
+it7: (bothfull): Die beste Arbeitsteilung in einer Familie ist die, dass beide Partner Vollzeit arbeiten und sich gleichermaßen um den Haushalt und die Kinder kümmern.
 
-it8: (trad07): Der Mann sollte in einer Familie für alle größeren Entscheidungen
-verantwortlich und zuständig sein.
+it8: (fulldadtod): Ein Vollzeit erwerbstätiger Vater kann zu seinem Kleinkind normalerweise ein genauso inniges Verhältnis haben wie ein Vater, der nicht berufstätig ist.
 
-it9: (trad08): In einer Gruppe mit weiblichen und männlichen Mitgliedern sollte
-ein Mann die Führungsposition innehaben.
-
-it10: (trad09): Verheiratete Frauen, die Kinder im Schulalter haben, sollten
-nicht arbeiten, es sei denn, es ist für die Familie finanziell unbedingt
-notwendig.
-
-it11: (trad010): Wenn sich ein gut qualifizierter Mann und eine etwas besser
-qualifizierte Frau um eine Arbeitsstelle bewerben, so sollte der Mann die Stelle
-erhalten, da er eine Familie ernähren muss.
-
-it12: (ntrad02): Die Ehe ist eine Partnerschaft, in der Frau und Mann
-gleichermaßen für die Finanzen verantwortlich sein sollten.
-
-it13: (trad11): Eine Frau sollte lieber auf ihre Karriere verzichten, als darauf
-bestehen, dass ihr Mann wegen einem für sie notwendigen Ortswechsel eine neue
-Arbeitsstelle suchen muss.
-
-it14: (ntrad03): Eine verheiratete Frau, die lieber im Beruf weiterkommen möchte
-und keine Kinder haben will, sollte deswegen kein schlechtes Gewissen haben.
-
-it15: (trad12): Verheiratete Frauen, die Kinder im Vorschulalter haben, sollten
-nicht arbeiten, es sei denn, dass es für die Familie finanziell notwendig ist.
-
-it16: (trad13): Im allgemeinen ist es besser, wenn ein Mann der Leiter einer
-Abteilung ist, in der Frauen und Männer arbeiten.
-
-it17: (ntrad04): Im allgemeinen ist es besser, wenn ein Mann der Leiter einer
-Abteilung ist, in der Frauen und Männer arbeiten.
-
-it18: (ntrad05): Es ist gut, wenn Frauen lokalpolitische Ämter innehaben.
-
-it19: (trad14): Wenn sich ein Student und eine Studentin um ein Stipendium
-bewerben, so sollte es der Student erhalten, da er größere berufliche Chancen
-hat.
-
-it20: (ntrad06): Wenn eine Frau eine obszöne Sprache gebraucht, so ist das nicht
-anstößiger, als wenn ein Mann dies tut.
-
-it21: (ntrad07): Auch Jungen sollten mit Puppen spielen.
-
-it22: (trad15): Man sollte Mädchen raten, einen weiblichen Beruf wie
-Krankenschwester, Schneiderin oder Grundschullehrerin zu wählen.
-
-it23: (ntrad08): Frauen sollten alle athletischen Sportarten betreiben.
-
-it24: (ntrad09): Eltern sollten bei Töchtern ebenso wie bei Söhnen unabhängiges
-und selbständiges Verhalten ermuntern und fördern.
-
-it25: (ntrad10): Frauen sollten auch traditionell männliche Berufe wie Maurer
-oder Pilot ergreifen.
-
-it26: (ntrad11): Wenn eine Frau ihren Mädchennamen nach der Hochzeit behalten
-will, so ist nichts dagegen einzuwenden.
-
-it27: (ntrad12): Es wäre nichts dagegen zu sagen, wenn einmal eine Frau
-Bundeskanzler würde.
-
-it28: (trad16): Die berufliche Ausbildung von Jungen sollte für Eltern und
-Lehrer wichtiger sein als die von Mädchen.
-
-it29: (trad17): Auch wenn eine Frau arbeitet, sollte der Mann der
-"Haupt-Brotverdiener" sein, und die Frau sollte die Verantwortung für den
-Haushalt tragen.
-
-it30: (trad18): In der Grundschule sollten Mädchen Kleider und keine langen
-Hosen tragen.
-
-it31: (ntrad13): Wenn eine Frau Pfarrer oder Priester wird, so ist nichts
-dagegen einzuwenden.
-
-it32: (ntrad14): Frauen sollten vermehrt wichtige landes- und bundespolitische
-Ämter innehaben.
-
-it33: (trad19): Es ist nicht gut, wenn ein Mann zu Hause bleibt und die Kinder
-versorgt und seine Frau arbeitet.
-
-it34: (trad20): Der einzige Grund, warum Mädchen einen Beruf erlernen sollten,
-besteht darin, dass sie eventuell nicht heiraten oder geschieden werden können.
-
-it35: (trad21): Es gibt keine richtige Begründung dafür, dass Männer im vollen
-Bus ihren Sitzplatz einer Frau anbieten sollten.
-
-it36: (ntrad15): Männer sollten ruhig auch Berufe ergreifen, die traditionell
-Frauen vorbehalten sind (z.B. Kindergärtner, Telefon-Vermittler).
+it9: (rolechange): In einer Familie kann auch der Mann für den Haushalt und die Kinder verantwortlich sein, während die Frau Vollzeit erwerbstätig ist.
 
 st:
 
-ao1: 1: sehr falsch
+ao1: 1: stimme gar nicht zu
 
-ao2: 2: falsch
+ao2: 2: 2
 
-ao3: 3: eher falsch
+ao3: 3: 3
 
-ao4: 4: eher richtig
+ao4: 4: 4
 
-ao5: 5: richtig
-
-ao6: 6: sehr richtig
+ao5: 5: stimme voll und ganz zu
 
 mv:
 
@@ -424,16 +324,190 @@ fo:
 
 tr:
 
-GOTO 4
+GOTO B1_4a IF wohnpar=1
+ELSE GOTO B1_5
 
 hi:
 
 \--------------------------------
 
-4
-=
+B1_4a
+==
 
-tc:
+tc: IF wohnpar=1
+
+vn: atakhh_p/_i/_a; atakee_p/_i/_a; atakwe_p/_i/_a; atakkb_p/_i/_a
+
+qt: Mehrfachauswahlmatrix mit horizontalen ao mit offener Nennung
+
+hl:
+
+in:
+
+q: In einem Haushalt fallen täglich eine Reihe von Aufgaben an, die es zu bewältigen gilt. Dabei kann eine Aufgabenteilung ausgesprochen effizient sein. Wenn Sie an Ihre Partnerschaft denken: Wer trägt in welchem Ausmaß zu den folgenden Bereichen im Haushalt bei?
+
+is: \*\*Bitte summieren Sie jeweils die ++Spaltenprozente++ auf 100 Prozent.
+
+it1: (_p): Partner*in
+
+it2: (_i): ich selbst
+
+it3: (_a): andere Personen
+
+st:
+
+ao1 (atakhh): Hausarbeit: 3, Suffix: %
+
+ao2 (atakee): Erwerbseinkommen: 3, Suffix: %
+
+ao3 (atakwe): Treffen wichtiger Entscheidungen: 3, Suffix: %
+
+ao4 (atakkb): Kinderbetreuung: 3, Suffix: %
+
+mv:
+
+ka:
+
+vc:
+
+SHOW vn4 if dkinja=2
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+tr:
+
+GOTO B1_4b
+
+hi:
+
+\--------------------------------
+B1_4b
+==
+
+tc: IF wohnpar=1
+
+vn1: atakzufr
+
+qt: Einfachauswahl
+
+hl:
+
+in: 
+
+q: Alles in allem: Wie zufrieden sind Sie insgesamt mit der derzeitigen Arbeitsteilung zwischen Ihnen und Ihrem/Ihrer Partner*in in Ihrem Haushalt?
+
+is: 
+
+it: 
+
+st:
+
+ao1: 1: gar nicht zufrieden 
+
+ao2: 2: 2
+
+ao3: 3: 3
+
+ao4: 4: 4
+
+ao5: 5: sehr zufrieden
+
+mv: 
+
+ka: 
+
+vc: 
+
+av: 
+
+kh: 
+
+fv: 
+
+hv:  
+
+fo: 
+
+tr: GOTO B1_6
+
+hi:  
+
+
+\--------------------------------
+
+B1_5
+==
+
+tc: IF wohnpar ! 1
+
+vn: atihh; atiee; atiwe; atikb
+
+
+qt: Einfachauswahlmatrix
+
+hl: 
+
+in: 
+
+q:  In einem Haushalt fallen täglich eine Reihe von Aufgaben an, die es zu bewältigen gilt. Dabei kann eine klare Aufgabenteilung ausgesprochen effizient sein. Unabhängig davon, ob Sie aktuell in einer Partnerschaft leben: Bitte geben Sie an, wer Ihrer Meinung nach für die folgenden Haushaltsbereiche ++idealerweise++  zuständig sein sollte.
+
+is: 
+
+it1: (atihh): Hausarbeit
+
+it2: (atiee): Erwerbseinkommen
+
+it3: (atiwe): Treffen wichtiger Entscheidungen
+
+it4: (atikb): Kinderbetreuung
+
+st:
+
+ao1: 1: ausschließlich mein*e Partner*in
+
+ao2: 2: eher mein*e Partner*in
+
+ao3: 3: wir beide gleichermaßen
+
+ao4: 4: eher ich
+
+ao5: 5: ausschließlich ich
+
+mv: 
+
+ka: 
+
+vc: 
+
+av: 
+
+kh: 
+
+fv: 
+
+hv: 
+
+fo: 
+
+tr: GOTO B1_6
+
+hi: 
+
+
+\--------------------------------
+
+B1_6
+==
+
+tc: IF wohnpar=1
 
 vn: athhm_m/_v/_i/_a; ateem_m/_v/_i/_a; atwem_m/_v/_i/_a; atkbm_m/_v/_i/_a; atkam_m/_v/_i/_a;
 
@@ -443,8 +517,8 @@ hl:
 
 in:
 
-q: Wenn Sie an Ihre Kindheit denken: Wer hat in Ihrer Familie in welchem Ausmaß
-zu den folgenden Bereichen im Haushalt beigetragen?
+q: Wenn Sie nun an Ihre Kindheit denken: Wer hat in Ihrer Familie in welchem Ausmaß
+zu unterschiedlichen Bereichen im Haushalt beigetragen?
 
 is: \*\*Bitte summieren Sie jeweils die ++Spaltenprozente++ auf 100 Prozent.
 Sollten Sie keine (Stief-)Mutter und/oder keinen (Stief-)Vater haben, kreuzen
@@ -462,7 +536,7 @@ st:
 
 ao1 (athh): Hausarbeit: 3, Suffix: %
 
-ao2 (ate): Erwerbseinkommen: 3, Suffix: %
+ao2 (atee): Erwerbseinkommen: 3, Suffix: %
 
 ao3 (atwe): Treffen wichtiger Entscheidungen: 3, Suffix: %
 
@@ -488,13 +562,13 @@ fo:
 
 tr:
 
-GOTO 5a
+GOTO B1_7
 
 hi:
 
 \--------------------------------
 
-5a
+B1_7
 ==
 
 tc:
@@ -540,67 +614,14 @@ fo:
 
 tr:
 
-GOTO 5b
+GOTO B1_8
 
 hi:
 
 \--------------------------------
 
-5b
+B1_8
 ==
-
-tc:
-
-vn: antfemsb
-
-qt: Regler
-
-hl:
-
-in:
-
-q: Bitte denken Sie an die Lehrkörper an der Schule, an der Sie Ihre
-Studienberechtigung erhalten haben: Wie hoch war der Anteil an für Sie
-zuständigem weiblichen Lehrpersonal?
-
-is:
-
-it:
-
-st:
-
-ao1: 0 : 0%
-
-ao50: 50 : \|
-
-ao100: 100 : 100%
-
-mv:
-
-ka:
-
-vc:
-
-av:
-
-kh:
-
-fv:
-
-hv:
-
-fo:
-
-tr:
-
-GOTO 6
-
-hi:
-
-\--------------------------------
-
-6
-=
 
 tc:
 

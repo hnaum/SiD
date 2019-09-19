@@ -686,6 +686,123 @@ fo:
 
 tr:
 
-GOTO
+GOTO B1_9
+
+hi:
+
+
+\--------------------------------
+
+B1_9
+==
+
+tc:
+
+vn: pflegang; pflegango
+
+qt: Einfachauswahl mit vertikalen ao
+
+hl:
+
+in:
+
+q: Pflegen Sie regelmäßig pflegebedürftige Verwandte oder Freunde?
+
+is:
+
+it:
+
+st:
+
+ao1: 1: Nein
+ao2: 2: Ja, und zwar: ___ Personen
+
+mv:
+
+ka:
+
+vc:
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+tr:
+
+GOTO B1_10 IF pflegang=2
+ELSE nächstes Modul
+
+hi:
+
+
+
+\--------------------------------
+
+B1_10
+==
+
+tc:
+
+vn: pflegt (pflegt1; pflegt2; pflegt3; pflegt4; pflegt5; pflegt5o)
+
+qt: Einfachauswahlmatrix
+
+hl:
+
+in:
+
+q: Wenn Sie an eine typische Woche denken: Wie häufig führen Sie folgende Pflegetätigkeiten aus?
+
+is:
+
+it1: (pflegt1): Besorgungen und Erledigungen außer Haus
+
+it2: (pflegt2): Haushaltsführung, Versorgung mit Mahlzeiten und Getränken
+
+it3: (pflegt3): Einfachere Pflegetätigkeiten, z.B. Hilfe beim An- und Auskleiden,
+Waschen, Kämmen und Rasieren
+
+it4: (pflegt4): schwierigere Pflegetätigkeiten, z.B. Hilfe beim Umbetten,
+Stuhlgang usw.
+
+it5: (pflegt5; pflegt5o): Etwas anderes und zwar: ___ [offene Angabe, 50 Zeichen]
+
+st:
+
+ao1: 1: überhaupt nicht
+
+ao2: 2 
+
+ao3: 3 
+
+ao4: 4 
+
+ao5: 5: sehr häufig
+
+mv:
+
+ka:
+
+vc:
+
+av:
+
+kh:
+
+fv:
+
+hv:
+
+fo:
+
+tr:
+
+GOTO nächstes Modul
 
 hi:

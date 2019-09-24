@@ -778,7 +778,15 @@ st:
 
 ao1: 1: nein
 
-ao2: 2: ja
+ao2: 2: ja, und zwar Lehramt an Grundschulen (Primarstufe)
+
+ao3: 3: ja, und zwar Lehramt an Haupt-, Real- und Mittelschulen (Sekundarstufe I)
+
+ao4: 4: ja, und zwar Lehramt an Gymnasien (Sekundarstufe II)
+
+ao5: 5: ja, Lehramt an beruflichen/berufsbildenden Schulen, Berufskollegs
+
+ao6: 6: ja, Lehramt an Förderschulen/Sonderpädagogik
 
 mv:
 

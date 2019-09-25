@@ -299,7 +299,7 @@ fo:
 
 tr: KSM-fai06
 
-hi:
+hi: Ab hier sollen die Befragten zufällig einer der Seiten KSM-fai06 - KSM-fai16 zugewiesen werden. KSM-fai06 - KSM-fai16 beinhalten dieselbe Frage, aber mit verschiedenen Fächerkombinationen (10 insgesamt, also 10 einzelne Seiten), von denen jeweils eine Fächerkombination pro Seite angezeigt werden soll. Das heißt: Jeder Befragte wird per Zufall auf eine der Seiten verwiesen. Danach werden alle auf KSM-fai16 weitergeleitet mit den Gründen für das höhere Gehalt.
 
 \------------------------------------------------------------
 
@@ -351,13 +351,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai07
 =========
 
 tc:
@@ -405,13 +405,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai08
 =========
 
 tc:
@@ -459,13 +459,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai09
 =========
 
 tc:
@@ -513,13 +513,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai10
 =========
 
 tc:
@@ -567,13 +567,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai11
 =========
 
 tc:
@@ -621,13 +621,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai12
 =========
 
 tc:
@@ -676,13 +676,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai13
 =========
 
 tc:
@@ -731,13 +731,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai14
 =========
 
 tc:
@@ -785,13 +785,13 @@ hv:
 
 fo:
 
-tr:
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai06
+KSM-fai15
 =========
 
 tc:
@@ -840,13 +840,13 @@ hv:
 
 fo:
 
-tr: KSM-fai07
+tr: KSM-fai16
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai07
+KSM-fai16
 =========
 
 tc:
@@ -909,16 +909,16 @@ hv:
 
 fo:
 
-tr: KSM-fai08
+tr: KSM-fai17
 
-hi: Den Platzhalter in der Ausfüllanweisung immer durch die Fächergruppe ergänzen, die im vorigen Vergleich das höhere Gehalt bezogen hat/zuerst genannt wurde (Medizin, Ingenieurwissenschaften, Rechtswissenschaften,
-Wirtschaftswissenschaften)  Verknüpfung mit Fragen KSS-fai06.01 – KSS-fai06.10
-
-Bsp.: Befragter erhält KSS-fai06.10 = Ingenieurwissenschaften vs. Wirtschaftswissenschaften KSS-fai06.07 Platzhaltern = Ingenieurwissenschaften
+hi: Den Platzhalter in der Ausfüllanweisung immer durch die Fächergruppe ergänzen, die in der vorangegangenen Frage (Seiten KSM-fai06-KSM-fai15) das höhere Gehalt bezogen hat (Medizin, Ingenieurwissenschaften, Rechtswissenschaften,
+Wirtschaftswissenschaften). Verknüpfung mit Fragen KSS-fai06.06 – KSS-fai06.15
+Bsp.: Befragter erhält Seite KSS-fai06 =  Wirtschaftswissenschaften vs. Geisteswissenschaften. Seite KSS-fai017: Platzhaltern = Wirtschaftswissenschaften. 
+Ist so etwas mit Steuerungsvariablen möglich?
 
 \------------------------------------------------------------
 
-KSM-fai08
+KSM-fai17
 =========
 
 tc:
@@ -976,13 +976,13 @@ hv:
 
 fo:
 
-tr: KSM-fai09
+tr: KSM-fai18
 
 hi:
 
 \------------------------------------------------------------
 
-KSM-fai09
+KSM-fai18
 =========
 
 tc:

@@ -5,13 +5,13 @@ Master-Vignetten
 mvig[deck][vignr]
 =================
 
-tc:
+tc: 
 
 vn: mabew
 
 qt: Einfachauswahl mit horizontalen Antwortoptionen
 
-hl:
+hl: Attraktivität eines Masterstudiums
 
 in: Nachfolgend bitten wir Sie, für vier hypothetische Masterstudiengänge mit
 unterschiedlichen Eigenschaften einzuschätzen, wie wahrscheinlich Sie sich
@@ -75,9 +75,10 @@ hv:
 
 fo:
 
-tr:
+tr: GOTO KSM-ma02
 
-hi: vig1, vig2 und vig3 sind Absätze der Vignette, die Zuordnung und Auswahl der
+hi: Filter am Anfang des Moduls als Einblendbedingung (nur Bachelorstudierende ab dem 4 Semester IF sabsan = 1 AND ssemhs>=4) nötig, oder wird die Zuweisung in das Modul anderweitig gesteuert? Und wenn hier gefiltert wird, muss die Einblendbedingung dann auf jede Seite im Modul?
+vig1, vig2 und vig3 sind Absätze der Vignette, die Zuordnung und Auswahl der
 Vignetten wird in einer Excel-Liste geliefert: [Master-Vignetten](https://github.com/dzhw/SiD/blob/master/Vignetten_Master.xls)
 
 \--------------------------------
@@ -172,7 +173,7 @@ hv:
 
 fo:
 
-tr:
+tr: GOTO KSM-ma04
 
 hi:
 
@@ -181,7 +182,7 @@ hi:
 KSM-ma04
 ========
 
-tc: (alle)
+tc:  (alle)
 
 vn: bervorb
 
@@ -226,7 +227,7 @@ hv:
 
 fo:
 
-tr:
+tr: GOTO KSM-ma05
 
 hi:
 
@@ -286,7 +287,7 @@ hv:
 
 fo:
 
-tr:
+tr: GOTO KSM-ma06
 
 hi:
 
@@ -295,7 +296,7 @@ hi:
 KSM-ma06
 ========
 
-tc:
+tc:  
 
 vn: balohn, baloho
 
@@ -343,7 +344,7 @@ hi:
 KSM-ma06
 ========
 
-tc:
+tc: 
 
 vn: malohn, malohno
 
@@ -382,16 +383,19 @@ hv:
 
 fo:
 
-tr:
+tr: 
+GOTO KSM-ma07 IF mastplan = 4 OR mastplan = 5
+GOTO KSM-ma08 IF mastplan = 1 OR mastplan = 2
+GOTO KSM-ma09 IF mastplan = 3
 
-hi:
+hi: Hier in Abhängigkeit von der Absicht ein Masterstudium aufzunehmen auf die folgenden Fragen weiterleiten
 
 \--------------------------------
 
 KSM-ma07
 ========
 
-tc:
+tc: 
 
 vn: mastergrund1- mastergrund15; mastergrund15o
 
@@ -452,7 +456,7 @@ mv:
 
 ka:
 
-vc: SHOW mastergrund1- mastergrund15 (gesamte Matrix) IF „Masterintention = ja“
+vc: 
 
 av:
 
@@ -464,14 +468,14 @@ hv:
 
 fo:
 
-tr:
+tr: GOTO KSM-ma09
 
 hi: Wo und mit welcher Variable „Masterintention“ erhoben wird, ist mir nicht
-klar Variablenbezug zur Einblendbedingung fehlt noch
+klar Variablenbezug zur Einblendbedingung fehlt noch --> Antwort:  IF mastplan = 4 OR mastplan = 5, wird beim Seitenübergang von KSM-ma06 nach KSM-07/08 definiert.
 
 \--------------------------------
 
-KSM-ma07
+KSM-ma08
 ========
 
 tc:
@@ -534,8 +538,7 @@ mv:
 
 ka:
 
-vc: SHOW mastercontra1- mastercontra12 (gesamte Matrix) IF „Masterintention =
-nein“
+vc: 
 
 av:
 
@@ -547,14 +550,14 @@ hv:
 
 fo:
 
-tr:
+tr: GOTO KSM-ma09
 
 hi: Wo und mit welcher Variable „Masterintention“ erhoben wird, ist mir nicht
-klar Variablenbezug zur Einblendbedingung fehlt noch
+klar Variablenbezug zur Einblendbedingung fehlt noch --> Antwort:  IF mastplan = 4 OR mastplan = 5, wird beim Seitenübergang von KSM-ma06 nach KSM-07/08 definiert.
 
 \--------------------------------
 
-KSM-ma08
+KSM-ma09
 ========
 
 tc:
